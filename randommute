@@ -1,0 +1,5 @@
+{=(fool):{if({args(1)}!=):{args(1)}|{server(random)}}}
+{=(time):{range:1-720}}
+{c:mute "{fool}" {time}m cuz why not}
+{silence} 
+\*\*{fool}\*\* was muted for {time} minutes lol what a nerd
