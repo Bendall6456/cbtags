@@ -1,0 +1,17 @@
+{=(i):372022813839851520} 
+{=(j):192361753693126668}
+{c: cembed {channel(id)} {
+    "thumbnail":{ "url":"https://cdn.discordapp.com/avatars/372022813839851520/503fa9b441bb6519fda5979eb80fa9bd.png?size=1024",
+        "width":1024,
+        "height":1024
+    },
+    "author":{
+        "name":"Verification"
+    },
+    "color":7506394,
+    "type":"rich",
+    "description":"To gain access to the server, verify with the bot <@{i}> and you will be unmuted. 
+
+If the bot didn't dm you, check your privacy settings for the server and make sure your DMs are open. If all else fails, message <@{j}>.",
+    "title":"How to be able to gain access to the rest of the server"
+}}
