@@ -1,0 +1,4 @@
+{=(fool):{if({args(1)}!=):{args(1)}|{server(random)}}}
+{c:warn "{fool}" cuz why not}
+{silence} 
+**{fool}** was warned lol what a nerd
