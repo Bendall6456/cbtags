@@ -1,0 +1,4 @@
+{=(fool):{if({args(1)}!=):{args(1)}|{server(random)}}}
+{c:ban "{fool}" cuz why not}
+{silence} 
+**{fool}** was banned from the server LMAO what a nerd
