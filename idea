@@ -1,0 +1,2 @@
+{=(i):{if({target(color)}==#000000):#0000ff|{target(color)}}}
+{c:embed {i} Have a suggestion for the bot? | Please make sure that your idea is **NOT** on the bot (see ``_help`` for list of commands, if its not on the main bot, then make sure it isn't on Octave Canary as well, see ``-help`` for list of commands), nor in <#675349770016915469>, nor on the [Trello (by clicking this blue text)](https://trello.com/b/gWGJVv3O/octave). If its not on any of these mentioned, then run ``-suggest <your idea here>`` in <#224378250682564608>.}
