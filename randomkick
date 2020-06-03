@@ -1,0 +1,4 @@
+{=(fool):{if({args(1)}!=):{args(1)}|{server(random)}}}
+{c:kick "{fool}" cuz why not}
+{silence} 
+**{fool}** was kicked from the server LMAO what a nerd
