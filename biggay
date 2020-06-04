@@ -1,0 +1,4 @@
+{=(fool):{if({args(1)}!=):{args(1)}|{server(random)}}}
+{c:role "{fool}" INSERT ROLE ID HERE}
+{silence} 
+{fool} was given the big gay role, congrats I think?
