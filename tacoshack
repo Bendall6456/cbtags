@@ -1,4 +1,4 @@
-{=(opt):guide prefix cleaninfo ex coupons fb keywords give hourly inv income lb leveling lr mas gamble menu mi tipjar onechannel s tacos voteissue faq}
+{=(opt):guide prefix cleaninfo ex coupons fb keywords give hourly inv income lb leveling lr mas gamble menu mi tipjar onechannel s tacos voteissue faq sharding}
 {=(r0):**TacoShack Beginner Guide:**\nYou can find the guide on how to get started [here.](https://tacoshack.dev/beginners-guide/)}
 {=(r1):**Change Prefix:**\nTo update the bot's prefix use `!prefix newprefix`, for example `!prefix t!`. If it has the permission, the bot's nickname will be updated to show this change.\n\nYou can __always check the current prefix__ using `!prefixinfo`}
 {=(r2):**How do I raise my happiness?**\nUse `!clean` once a day to keep your shack clean and your customers happy!\n(Use `!happiness` in a play channel to view more info about it)\n\n```Happiness Levels:\nHappy (-0% income): Cleaning everyday\nModerate (-25% income): Missing more than one day\nAngry (-50% income): Missing more than 5 days```}
@@ -27,6 +27,7 @@
 {=(r21):**Tacos are simply an indicator of how much you've worked 🌮**\nSell more by doing `!work` every 10 minutes *(or less depending on donation)*\nYou can compete for the `!leaderboard` and `!lb global` for most tacos sold!}
 {=(r22):**Vote Issue**\n__**If you're having issues using `!claim`**__\n\n1️⃣ **Did you vote using the correct account?**\nMake sure you're logged into the correct account on top.gg and your Discord.\n\n2️⃣ **Wait up to 30 minutes**\nIf it is not instant, it can be up to 30 minutes, but *usually* will in 5 minutes.\n\n3️⃣ **Contact Support Again**\nThere may be a wider issue. You can check <#496046802722881549> for a status to see if we are aware. \n\n`Remember, you have 48 hours before your streak expires, so there is plenty of time`}
 {=(r23):**General Server FAQ**\nYou can read the full list of Frequently Asked Questions in the server [here.](https://tacoshack.dev/faq/)}
+{=(r24):**Sharding**\nDue to how large discord bots can grow, it is necessary to implement a load balancing system to spread the load across multiple instances, and so the Discord Team implemented a method for this called Sharding.\n\nIt essentially splits up a bot into multiple portions and thus evens out the load.\nHowever, because of this a bot can be offline in one server but online in another.\n\nFor more detailed information please [click here](https://discordapp.com/developers/docs/topics/gateway#sharding).}
 {=(L1):{lower:{1}}}
 {=(Lopt):{lower:{opt}}}
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|keywords}}}
