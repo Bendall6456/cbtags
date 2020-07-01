@@ -1,4 +1,4 @@
-{=(opt):guide prefix cleaninfo ex coupons fb keywords give hourly inv income lb leveling lr mas gamble menu mi tipjar onechannel s tacos voteissue faq sharding botissue getid}
+{=(opt):beginner prefix cleaninfo ex coupons fb keywords give hourly inv income lb leveling lr mas gamble menu mi tipjar onechannel s tacos voteissue faq sharding botissue getid}
 {=(r0):**TacoShack Beginner Guide:**\nYou can find the guide on how to get started [here.](https://tacoshack.dev/beginners-guide/)}
 {=(r1):**Change Prefix:**\nTo update the bot's prefix use `!prefix newprefix`, for example `!prefix t!`. If it has the permission, the bot's nickname will be updated to show this change.\n\nYou can __always check the current prefix__ using `!prefixinfo`}
 {=(r2):**How do I raise my happiness?**\nUse `!clean` once a day to keep your shack clean and your customers happy!\n(Use `!happiness` in a play channel to view more info about it)\n\n```Happiness Levels:\nHappy (-0% income): Cleaning everyday\nModerate (-25% income): Missing more than one day\nAngry (-50% income): Missing more than 5 days```}
