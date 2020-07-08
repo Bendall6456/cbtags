@@ -1,4 +1,4 @@
-{=(opt):beginner prefix cleaninfo ex coupons fb keywords give hourly inv income lb leveling lr mas gamble menu mi register onechannel s tacos voteissue faq sharding botissue getid cost customer}
+{=(opt):beginner prefix cleaninfo ex coupons fb keywords give hourly inv income lb leveling lr mas gamble menu mi register onechannel s tacos voteissue faq sharding botissue getid cost customer dmfb}
 {=(r0):**TacoShack Beginner Guide:**\nYou can find the guide on how to get started [here.](https://tacoshack.dev/beginners-guide/)}
 {=(r1):**Change Prefix:**\nTo update the bot's prefix use `!prefix newprefix`, for example `!prefix t!`. If it has the permission, the bot's nickname will be updated to show this change.\n\nYou can __always check the current prefix__ using `!prefixinfo`}
 {=(r2):**How do I raise my happiness?**\nUse `!clean` once a day to keep your shack clean and your customers happy!\n(Use `!happiness` in a play channel to view more info about it)\n\n```Happiness Levels:\nHappy (-0% income): Cleaning everyday\nModerate (-25% income): Missing more than one day\nAngry (-50% income): Missing more than 5 days```}
@@ -32,6 +32,8 @@
 {=(r26):**How do I find an ID on Discord?**\nYou can find the guide on this [here](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)}
 {=(r27):**Upgrade, Employee, Ads, Decorations, Levels & Franchise Information**\nA Google Sheet with this can be found [here](https://goo.gl/RRVtwt)}
 {=(r28):**Customer Bot**\nYou can get customer for your server for as low as $4.99 USD. You can find all the information here: <#727275862143008798>}
+{=(r29):**Franchise Help**\n🔹 **__Founding your Franchise__** 🔹\nUse `f create [tag (3 letters)] [name of franchise]` to create your own Franchise!\nFounding a Franchise costs $1,000,000 and gives you an income boost of $250 as Owner.\n\n🔹 **__Members__** 🔹\nInvite members to increase the size of your Franchise! Joining a Franchise gives you an income boost of $100 as a Member.\n\n🔹 **__Franchise Bank/Levels__** 🔹\nDonate to your Franchise to be able to upgrade your Franchise level!\nThe money you make from working also goes into your Franchise Bank!\nUpgrading your Franchise level allows you to have more members in your Franchise.
+For every 5 levels, everyone receives +$100 income!\n\n**The benefits of being in a franchise include:**\n💵 `+100 for joining`\n💵  `+100 for every 5 levels`\n⭐ `You can compete on the leaderboards.`\n🔼 `Increased income, work & tip money depending on Franchise Upgrades`\n\nYou can use the command `!f info` in a play channel to see more information.\nTo join a franchise look in <#663937997313540128> and follow the instructions.}
 {=(L1):{lower:{1}}}
 {=(Lopt):{lower:{opt}}}
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|keywords}}}
