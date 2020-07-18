@@ -14,7 +14,7 @@
 {=(COMMENT):########## Please don't edit anything below this comment if you don't know what you're doing. Well you can, but don't count on me to fix it then. ##########}
 
 {=(COMMENT):Available social media to set as auto-hyperlinks.}
-{=(available):youtube twitch twitter discord soundcloud tumblr}
+{=(available):youtube twitch twitter discord soundcloud spotify}
 
 {=(COMMENT):Emojis to use for each social media.}
 {=(youtube):<:YouTube:733866137175195699>}
@@ -22,10 +22,10 @@
 {=(twitter):<:Twitter:733866137015812140>}
 {=(discord):<:Discord:733866135417520199>}
 {=(soundcloud):<:soundcloud:688883983743844495>}
-{=(tumblr):<:Tumblr:734075508425359399>}
+{=(spotify):<a:spotify:637147870566416393>}
 
 {=(COMMENT):Spacing out each social media name to know where it is}
-{=(checks):{replace(youtube,. youtube .):{replace(twitch,. twitch .):{replace(twitter,. twitter .):{replace(discord,. discord .):{replace(soundcloud,. soundcloud .):{replace(tumblr,. tumblr .):{args}}}}}}}}
+{=(checks):{replace(youtube,. youtube .):{replace(twitch,. twitch .):{replace(twitter,. twitter .):{replace(discord,. discord .):{replace(soundcloud,. soundcloud .):{replace(spotify,. spotify .):{args}}}}}}}}
 
 {=(COMMENT):Checks where each social media's link is. Return their index +1 (because the DNS is spaced out).}
 {=(c.youtube):{replace(???,5):{replace(!!!,2):{replace(2,1):{replace(5,!!!):{replace(8,3):{replace(11,4):{replace(14,???):{replace(17,6):{index(youtube):0 {checks} no}}}}}}}}}}
@@ -33,7 +33,7 @@
 {=(c.twitter):{replace(???,5):{replace(!!!,2):{replace(2,1):{replace(5,!!!):{replace(8,3):{replace(11,4):{replace(14,???):{replace(17,6):{index(twitter):0 {checks} no}}}}}}}}}}
 {=(c.discord):{replace(???,5):{replace(!!!,2):{replace(2,1):{replace(5,!!!):{replace(8,3):{replace(11,4):{replace(14,???):{replace(17,6):{index(discord):0 {checks} no}}}}}}}}}}
 {=(c.soundcloud):{replace(???,5):{replace(!!!,2):{replace(2,1):{replace(5,!!!):{replace(8,3):{replace(11,4):{replace(14,???):{replace(17,6):{index(soundcloud):0 {checks} no}}}}}}}}}}
-{=(c.tumblr):{replace(???,5):{replace(!!!,2):{replace(2,1):{replace(5,!!!):{replace(8,3):{replace(11,4):{replace(14,???):{replace(17,6):{index(tumblr):0 {checks} no}}}}}}}}}}
+{=(c.spotify):{replace(???,5):{replace(!!!,2):{replace(2,1):{replace(5,!!!):{replace(8,3):{replace(11,4):{replace(14,???):{replace(17,6):{index(spotify):0 {checks} no}}}}}}}}}}
 
 {=(COMMENT):Actual hyperlink to return for every social media. Returns nothing if not found.}
 {=(l.youtube):{if({c.youtube}!=-1):$%&[{youtube}]({args({c.youtube})})$%&}}
@@ -41,13 +41,13 @@
 {=(l.twitter):{if({c.twitter}!=-1):$%&[{twitter}]({args({c.twitter})})$%&}}
 {=(l.discord):{if({c.discord}!=-1):$%&[{discord}]({args({c.discord})})$%&}}
 {=(l.soundcloud):{if({c.soundcloud}!=-1):$%&[{soundcloud}]({args({c.soundcloud})})$%&}}
-{=(l.tumblr):{if({c.tumblr}!=-1):$%&[{tumblr}]({args({c.tumblr})})$%&}}
+{=(l.spotify):{if({c.spotify}!=-1):$%&[{spotify}]({args({c.spotify})})$%&}}
 
 {=(COMMENT):Hyperlinks to return.}
-{=(links):{replace($%&, ):{l.youtube}{l.twitch}{l.twitter}{l.discord}{l.soundcloud}{l.tumblr}}}
+{=(links):{replace($%&, ):{l.youtube}{l.twitch}{l.twitter}{l.discord}{l.soundcloud}{l.spotify}}}
 
 {=(COMMENT):Returns the position of each social media's link in the user arguments in a variable, next to one another.}
-{=(c.all):{c.youtube} {c.twitch} {c.twitter} {c.discord} {c.soundcloud} {c.tumblr}}
+{=(c.all):{c.youtube} {c.twitch} {c.twitter} {c.discord} {c.soundcloud} {c.spotify}}
 
 {=(COMMENT):I tried several ways to optimize the part below, but anything I tried was more of a hassle than hardcoding it like how it is now, so *oh well*. It basically returns "empty" when the argument is empty, "good" when the argument *contains* an available social media, otherwise/else returns "no".}
 {=(jargs):{join(,):{args}}}
@@ -73,7 +73,7 @@
 {=(isArgs):{if({1}!=):true|false}}
 
 {=(msg.Available):**{youtube} `YouTube`・{twitter} `Twitter`⠀  ・{twitch} `Twitch`
-{discord} `Discord`・{soundcloud} `soundcloud`・{tumblr} `Tumblr`**}
+{discord} `Discord`・{soundcloud} `Soundcloud`・{spotify} `Spotify`**}
 {=(msg.Javailable):{join(`, `):`{available}`}}
 
 {=(COMMENT):Error messages and final output.}
@@ -91,7 +91,7 @@ __Available Social Media:__
 {=(COMMENT):Embed fields.}
 {=(title):Social Media}
 {=(footer):{prefix}{tagname} <links> | Created by Asty'}
-{=(thumbnail):{all({isAnyWrong}==false|{isArgs}==true):{replace(size=1024,size=64):{replace(.gif,.png):{user(avatar)}}}}
+{=(thumbnail):{all({isAnyWrong}==false|{isArgs}==true):{replace(size=1024,size=64):{replace(.gif,.png):{user(avatar)}}}}}
 
 
 IN SHOW EMBED BUILDER:
