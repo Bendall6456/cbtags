@@ -1,4 +1,4 @@
-{=(opt):beginner prefix cleaninfo ex coupons fb keywords give hourly inv income lb leveling lr mas gamble menu mi register onechannel s tacos voteissue faq sharding botissue getid cost customer dmfb speedjar host}
+{=(opt):beginner prefix cleaninfo ex coupons fb keywords give hourly inv income lb leveling lr mas gamble menu mi register onechannel s tacos voteissue faq sharding botissue getid cost customer dmfb speedjar host hi}
 {=(r0):**TacoShack Beginner Guide:**\nYou can find the guide on how to get started [here.](https://tacoshack.dev/beginners-guide/)\n\n**Franchise Beginner Guide**\n You can find te guide on getting started with franchises [here.](https://tacoshack.dev/franchise-guide/)}
 {=(r1):**Change Prefix:**\nTo update the bot's prefix use `!prefix newprefix`, for example `!prefix t!`. If it has the permission, the bot's nickname will be updated to show this change.\n\nYou can __always check the current prefix__ using `!prefixinfo`}
 {=(r2):**How do I raise my happiness?**\nUse `!clean` once a day to keep your shack clean and your customers happy!\n(Use `!happiness` in a play channel to view more info about it)\n\n```Happiness Levels:\nHappy (-0% income): Cleaning everyday\nModerate (-25% income): Missing more than one day\nAngry (-50% income): Missing more than 5 days```}
@@ -36,6 +36,7 @@
 For every 5 levels, everyone receives +$100 income!\n\n**The benefits of being in a franchise include:**\n💵 `+100 for joining`\n💵  `+100 for every 5 levels`\n⭐ `You can compete on the leaderboards.`\n🔼 `Increased income, work & tip money depending on Franchise Upgrades`\n\nYou can use the command `!f info` in a play channel to see more information.\nTo join a franchise look in <#663937997313540128> and follow the instructions.}
 {=(r30):**How to compete in speed jar**\nSpeed jar is a quick version of what you can see in <#498614068450689035>. The Customer Bot will post a word to unscramble and people will compete to unscramble it first, the next word will send shortly after.\n\nYou can be notified when Speed jar is starting by getting the `Events 🎪` role in <#727238657152647239>.}
 {=(r31): 🎉 **Hosting a Giveaway**\nIf you'd like to host a Giveaway, take a look at [this form](https://docs.google.com/forms/d/e/1FAIpQLSdY13X9-HO8Def14D22xus_cmpD3DD_8BJWucSEu1pd5cVFvw/viewform?usp=sf_link)}
+{=(r32):**To increase your hourly income**\n•`!hire`\n • `!upgrades` aka `!up`\n • `!ads`\n • `!deco`\n These have different employees you can hire, upgrades to make your shack nicer and ads to raise your visibility! All of these will contribute to your passive income.} 
 {=(L1):{lower:{1}}}
 {=(Lopt):{lower:{opt}}}
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|keywords}}}
