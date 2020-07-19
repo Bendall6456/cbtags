@@ -36,7 +36,7 @@
 For every 5 levels, everyone receives +$100 income!\n\n**The benefits of being in a franchise include:**\n💵 `+100 for joining`\n💵  `+100 for every 5 levels`\n⭐ `You can compete on the leaderboards.`\n🔼 `Increased income, work & tip money depending on Franchise Upgrades`\n\nYou can use the command `!f info` in a play channel to see more information.\nTo join a franchise look in <#663937997313540128> and follow the instructions.}
 {=(r30):**How to compete in speed jar**\nSpeed jar is a quick version of what you can see in <#498614068450689035>. The Customer Bot will post a word to unscramble and people will compete to unscramble it first, the next word will send shortly after.\n\nYou can be notified when Speed jar is starting by getting the `Events 🎪` role in <#727238657152647239>.}
 {=(r31): 🎉 **Hosting a Giveaway**\nIf you'd like to host a Giveaway, take a look at [this form](https://docs.google.com/forms/d/e/1FAIpQLSdY13X9-HO8Def14D22xus_cmpD3DD_8BJWucSEu1pd5cVFvw/viewform?usp=sf_link)}
-{=(r32):**To increase your hourly income**\n•`!hire`\n • `!upgrades` aka `!up`\n • `!ads`\n • `!deco`\n These have different employees you can hire, upgrades to make your shack nicer and ads to raise your visibility! All of these will contribute to your passive income.} 
+{=(r32):**To increase your hourly income**\n • `!hire`\n • `!upgrades` aka `!up`\n • `!ads`\n • `!deco`\n These have different employees you can hire, upgrades to make your shack nicer and ads to raise your visibility! All of these will contribute to your passive income.} 
 {=(L1):{lower:{1}}}
 {=(Lopt):{lower:{opt}}}
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|keywords}}}
