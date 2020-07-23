@@ -9,4 +9,4 @@ This is where I will edit or add my carl-bot tags I have made for servers I own/
 [AdAddict](https://discord.gg/fk9jeKq)
 
 ### Contributions
-Albert
+Albert - [toxicitea ☕](https://discord.gg/4PM7QNr)
