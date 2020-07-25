@@ -14,9 +14,6 @@
 {=(Lopt):{lower:{opt}}}
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|:x: **You gave an invalid entry!**\nYou can view the keywords using `-c keywords`}}}
 {=(json):{
-    "thumbnail":{
-        "url":"https://cdn.discordapp.com/icons/614109432145641473/a_a0c9b5689afaecc31f6a311d0df3f0d9.gif?size=1024",
-    },
     "author":{
         "name":"Chip",
         "icon_url":"https://cdn.discordapp.com/avatars/614109280508968980/ee2bbd51497aa2de1b943957eb30dbc7.webp?size=2048",
