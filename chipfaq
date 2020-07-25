@@ -1,0 +1,265 @@
+{=(comment):
+If you would like the tag to always display a link to your faq channel in the description when you are listing rules
+Insert the channel id of your rules channel below. Leave completely blank and it will not display.}
+{=(ruleschannelid):676879072277692416}
+
+{=(comment):Add, change or remove the embed title here}
+{=(embedtitle):}
+
+{=(comment):
+Put custom titles in the title1-title25 variables (if you want them).
+Put keywords for each rule in the keyword1-keyword25 variables. Not required but useful.
+Put rules in the rule1-rule25 variables.
+Titles must be less than 256 characters, and rules must be less than 1024 characters.
+Some symbols in rule text might cause issues, limit formatting to Discord markdown friendly characters. 
+DO NOT USE " or | in rule text.
+Leave custom titles blank to have the titles just be "Rule #".
+Leave corresponding title, keyword, and rule variables blank if the rule # does not exist, but do NOT erase the blank variables}
+
+{=(title01):1. How to invite Chip?}
+{=(keyword01):invite}
+{=(rule01):> You can invite Chip to your server here:
+> **[Chip](https://discord.com/oauth2/authorize?client_id=614109280508968980&scope=bot&permissions=8)**
+> **[Chip 2](https://discord.com/oauth2/authorize?client_id=679643572814741522&scope=bot&permissions=8)**
+> **[Chip 3](https://discord.com/oauth2/authorize?client_id=634695585508884505&scope=bot&permissions=8)**}
+
+{=(title02):2. Chip is not responding.}
+{=(keyword02):responding}
+{=(rule02):> **A.** Make sure Chip can see the channel you are in, you should be able to see Chip to your right where members are listed.
+> 
+> **B.** Check Chip's prefix by doing <@614109280508968980>, Chip should then respond with a message  like:
+> `My prefix is ch!, to get started do ch!help`}
+
+{=(title03):3. Chip sounds laggy or weird.}
+{=(keyword03):lag}
+{=(rule03):> This can be the cause of your connection or the voice region you are in.
+> If this arises try changing your server's voice region and see if that helps.}
+
+{=(title04):4. What are Chip’s commands?}
+{=(keyword04):commands}
+{=(rule04):> A list of Chip's commands can be found here: **[All Commands](https://chipbot.xyz/commands)**}
+
+{=(title05):5. How to setup the DJ role?}
+{=(keyword05):dj}
+{=(rule05):> Just go to your server settings -> roles -> create a role called `DJ` and you're done! Just give it to anyone you deem worth of controlling Chip without needing other permissions.}
+
+{=(title06):6. Where can I get Chip Premium?}
+{=(keyword06):premium}
+{=(rule06):> You can support Chip and it's development at:
+> **https://www.patreon.com/chipbot**
+> You also get some awesome perks to go with it, like a snazzy role in this server, access to 24/7 music, and more!}
+
+{=(title07):}
+{=(keyword07):}
+{=(rule07):}
+
+{=(title08):}
+{=(keyword08):}
+{=(rule08):}
+
+{=(title09):}
+{=(keyword09):}
+{=(rule09):}
+
+{=(title10):}
+{=(keyword10):}
+{=(rule10):}
+
+{=(title11):}
+{=(keyword11):}
+{=(rule11):}
+
+{=(title12):}
+{=(keyword12):}
+{=(rule12):}
+
+{=(title13):}
+{=(keyword13):}
+{=(rule13):}
+
+{=(title14):}
+{=(keyword14):}
+{=(rule14):}
+
+{=(title15):}
+{=(keyword15):}
+{=(rule15):}
+
+{=(title16):}
+{=(keyword16):}
+{=(rule16):}
+
+{=(title17):}
+{=(keyword17):}
+{=(rule17):}
+
+{=(title18):}
+{=(keyword18):}
+{=(rule18):}
+
+{=(title19):}
+{=(keyword19):}
+{=(rule19):}
+
+{=(title20):}
+{=(keyword20):}
+{=(rule20):}
+
+{=(title21):}
+{=(keyword21):}
+{=(rule21):}
+
+{=(title22):}
+{=(keyword22):}
+{=(rule22):}
+
+{=(title23):}
+{=(keyword23):}
+{=(rule23):}
+
+{=(title24):}
+{=(keyword24):}
+{=(rule24):}
+
+{=(title25):}
+{=(keyword25):}
+{=(rule25):}
+
+{=(comment):Title overrides, don't touch except to translate "Rule" into a different language}
+{=(word4rule):Rule}
+{=(comment):Don't touch}
+{=(t01):{if({title01}!=):{title01}|{word4rule} 1}}
+{=(t02):{if({title02}!=):{title02}|{word4rule} 2}}
+{=(t03):{if({title03}!=):{title03}|{word4rule} 3}}
+{=(t04):{if({title04}!=):{title04}|{word4rule} 4}}
+{=(t05):{if({title05}!=):{title05}|{word4rule} 5}}
+{=(t06):{if({title06}!=):{title06}|{word4rule} 6}}
+{=(t07):{if({title07}!=):{title07}|{word4rule} 7}}
+{=(t08):{if({title08}!=):{title08}|{word4rule} 8}}
+{=(t09):{if({title09}!=):{title09}|{word4rule} 9}}
+{=(t10):{if({title10}!=):{title10}|{word4rule} 10}}
+{=(t11):{if({title11}!=):{title11}|{word4rule} 11}}
+{=(t12):{if({title12}!=):{title12}|{word4rule} 12}}
+{=(t13):{if({title13}!=):{title13}|{word4rule} 13}}
+{=(t14):{if({title14}!=):{title14}|{word4rule} 14}}
+{=(t15):{if({title15}!=):{title15}|{word4rule} 15}}
+{=(t16):{if({title16}!=):{title16}|{word4rule} 16}}
+{=(t17):{if({title17}!=):{title17}|{word4rule} 17}}
+{=(t18):{if({title18}!=):{title18}|{word4rule} 18}}
+{=(t19):{if({title19}!=):{title19}|{word4rule} 19}}
+{=(t20):{if({title20}!=):{title20}|{word4rule} 20}}
+{=(t21):{if({title21}!=):{title21}|{word4rule} 21}}
+{=(t22):{if({title22}!=):{title22}|{word4rule} 22}}
+{=(t23):{if({title23}!=):{title23}|{word4rule} 23}}
+{=(t24):{if({title24}!=):{title24}|{word4rule} 24}}
+{=(t25):{if({title25}!=):{title25}|{word4rule} 25}}
+
+{=(comment):builds the list of rule numbers for rules that are populated}
+{=(rules):{if({rule01(1)}!=):01 }{if({rule02(1)}!=):02 }{if({rule03(1)}!=):03 }{if({rule04(1)}!=):04 }{if({rule05(1)}!=):05 }{if({rule06(1)}!=):06 }{if({rule07(1)}!=):07 }{if({rule08(1)}!=):08 }{if({rule09(1)}!=):09 }{if({rule10(1)}!=):10 }{if({rule11(1)}!=):11 }{if({rule12(1)}!=):12 }{if({rule13(1)}!=):13 }{if({rule14(1)}!=):14 }{if({rule15(1)}!=):15 }{if({rule16(1)}!=):16 }{if({rule17(1)}!=):17 }{if({rule18(1)}!=):18 }{if({rule19(1)}!=):19 }{if({rule20(1)}!=):20 }{if({rule21(1)}!=):21 }{if({rule22(1)}!=):22 }{if({rule23(1)}!=):23 }{if({rule24(1)}!=):24 }{if({rule25(1)}!=):25}}
+
+{=(comment):space saving measures that makes the whole thing way harder to read lmao}
+{=(r):replace}
+{=(ct):contains}
+
+{=(comment):Takes out the first channel mention present in args assuming it is present due to the desire for the rules to be sent to that channel}
+{=(sanschan):{if({in(<#):{args}}==true):{{r}({args({index(<#):{{r}(<#,. <# .):{args}}})},):{args}}|{args}}}
+
+{=(comment):DON'T TOUCH, converts keywords into rule numbers, ws = wordswap}
+{=(ws):{lower:{sanschan}}}
+{=(ws):{if({keyword01}!=):{if({in({keyword01}):{ws}}==true):{{r}({ws({index({keyword01}):{{r}({keyword01},. {keyword01} .):{ws}}})},01):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword02}!=):{if({in({keyword02}):{ws}}==true):{{r}({ws({index({keyword02}):{{r}({keyword02},. {keyword02} .):{ws}}})},02):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword03}!=):{if({in({keyword03}):{ws}}==true):{{r}({ws({index({keyword03}):{{r}({keyword03},. {keyword03} .):{ws}}})},03):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword04}!=):{if({in({keyword04}):{ws}}==true):{{r}({ws({index({keyword04}):{{r}({keyword04},. {keyword04} .):{ws}}})},04):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword05}!=):{if({in({keyword05}):{ws}}==true):{{r}({ws({index({keyword05}):{{r}({keyword05},. {keyword05} .):{ws}}})},05):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword06}!=):{if({in({keyword06}):{ws}}==true):{{r}({ws({index({keyword06}):{{r}({keyword06},. {keyword06} .):{ws}}})},06):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword07}!=):{if({in({keyword07}):{ws}}==true):{{r}({ws({index({keyword07}):{{r}({keyword07},. {keyword07} .):{ws}}})},07):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword08}!=):{if({in({keyword08}):{ws}}==true):{{r}({ws({index({keyword08}):{{r}({keyword08},. {keyword08} .):{ws}}})},08):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword09}!=):{if({in({keyword09}):{ws}}==true):{{r}({ws({index({keyword09}):{{r}({keyword09},. {keyword09} .):{ws}}})},09):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword10}!=):{if({in({keyword10}):{ws}}==true):{{r}({ws({index({keyword10}):{{r}({keyword10},. {keyword10} .):{ws}}})},10):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword11}!=):{if({in({keyword11}):{ws}}==true):{{r}({ws({index({keyword11}):{{r}({keyword11},. {keyword11} .):{ws}}})},11):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword12}!=):{if({in({keyword12}):{ws}}==true):{{r}({ws({index({keyword12}):{{r}({keyword12},. {keyword12} .):{ws}}})},12):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword13}!=):{if({in({keyword13}):{ws}}==true):{{r}({ws({index({keyword13}):{{r}({keyword13},. {keyword13} .):{ws}}})},13):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword14}!=):{if({in({keyword14}):{ws}}==true):{{r}({ws({index({keyword14}):{{r}({keyword14},. {keyword14} .):{ws}}})},14):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword15}!=):{if({in({keyword15}):{ws}}==true):{{r}({ws({index({keyword15}):{{r}({keyword15},. {keyword15} .):{ws}}})},15):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword16}!=):{if({in({keyword16}):{ws}}==true):{{r}({ws({index({keyword16}):{{r}({keyword16},. {keyword16} .):{ws}}})},16):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword17}!=):{if({in({keyword17}):{ws}}==true):{{r}({ws({index({keyword17}):{{r}({keyword17},. {keyword17} .):{ws}}})},17):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword18}!=):{if({in({keyword18}):{ws}}==true):{{r}({ws({index({keyword18}):{{r}({keyword18},. {keyword18} .):{ws}}})},18):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword19}!=):{if({in({keyword19}):{ws}}==true):{{r}({ws({index({keyword19}):{{r}({keyword19},. {keyword19} .):{ws}}})},19):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword20}!=):{if({in({keyword20}):{ws}}==true):{{r}({ws({index({keyword20}):{{r}({keyword20},. {keyword20} .):{ws}}})},20):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword21}!=):{if({in({keyword21}):{ws}}==true):{{r}({ws({index({keyword21}):{{r}({keyword21},. {keyword21} .):{ws}}})},21):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword22}!=):{if({in({keyword22}):{ws}}==true):{{r}({ws({index({keyword22}):{{r}({keyword22},. {keyword22} .):{ws}}})},22):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword23}!=):{if({in({keyword23}):{ws}}==true):{{r}({ws({index({keyword23}):{{r}({keyword23},. {keyword23} .):{ws}}})},23):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword24}!=):{if({in({keyword24}):{ws}}==true):{{r}({ws({index({keyword24}):{{r}({keyword24},. {keyword24} .):{ws}}})},24):{ws}}|{ws}}|{ws}}}
+{=(ws):{if({keyword25}!=):{if({in({keyword25}):{ws}}==true):{{r}({ws({index({keyword25}):{{r}({keyword25},. {keyword25} .):{ws}}})},25):{ws}}|{ws}}|{ws}}}
+
+{=(comment):adds leading zeros to single digit numbers: spaces symbols, replaces spaces with ~, replaces ~#~ with ~0#~, replaces ~ with spaces, de-spaces symbols}
+{=(sani):{{r}( - ,-):{{r}( + ,+):{{r}(~, ):{{r}(~1~,~01~):{{r}(~2~,~02~):{{r}(~3~,~03~):{{r}(~4~,~04~):{{r}(~5~,~05~):{{r}(~6~,~06~):{{r}(~7~,~07~):{{r}(~8~,~08~):{{r}(~9~,~09~):{{r}( ,~):{{r}(-, - ):{{r}(+, + ):~{ws}~}}}}}}}}}}}}}}}}
+
+{=(comment):DON'T TOUCH, replaces - and + with the rule numbers from the list they represent}
+{=(dash1):{sani(1):-}}
+{=(dash2):{sani(2):-}}
+{=(dash):{if({in(-):{sani}}==true):{dash1}{{r}({rules(+{m:trunc(1+{index({dash1(0)}):{rules}})})},):{{r}({rules({m:trunc(1+{index({dash2(1)}):{rules}})}+)},):{rules}}}{dash2}|{sani}}}
+{=(plus1):{dash(1):+}}
+{=(plus2):{dash(2):+}}
+{=(plus3):{dash(3):+}}
+{=(plus):{if({in(+):{dash}}==true):{if({plus1}!=):{if({plus1(+-1)}!=):{plus1(+-1)} }{rules({m:trunc(1+{index({plus1(0)}):{rules}})}+)} }{if({plus2}!=):{rules(+{m:trunc(1+{index({plus2(1)}):{rules}})})} {if({plus2(2+)}!=):{plus2(2+)} }}{if({plus3}==):{rules({m:trunc({index({plus2(0)}):{rules}}+2)}+)}|{rules(+{m:trunc(1+{index({plus3(1)}):{rules}})})} {if({plus3(2+)}!=):{plus3(2+)}}}|{dash}}}
+
+{=(comment):rebuilds input list based on inclusion in rule list, while preventing duplicates. if rw (rawlist) entity 0-24 is not empty, is in the rules variable which is autopopulated, and is not already present in the new number list, said rw entity is added to num}
+{=(rl):{join(,):{plus}}}
+{=(num):}
+{=(num):{num}{all({list(0):{rl}}!=|{{ct}({list(0):{rl}}):{rules}}==true|{{ct}({list(0):{rl}}):{num}}==false):{list(0):{rl}} }}
+{=(num):{num}{all({list(1):{rl}}!=|{{ct}({list(1):{rl}}):{rules}}==true|{{ct}({list(1):{rl}}):{num}}==false):{list(1):{rl}} }}
+{=(num):{num}{all({list(2):{rl}}!=|{{ct}({list(2):{rl}}):{rules}}==true|{{ct}({list(2):{rl}}):{num}}==false):{list(2):{rl}} }}
+{=(num):{num}{all({list(3):{rl}}!=|{{ct}({list(3):{rl}}):{rules}}==true|{{ct}({list(3):{rl}}):{num}}==false):{list(3):{rl}} }}
+{=(num):{num}{all({list(4):{rl}}!=|{{ct}({list(4):{rl}}):{rules}}==true|{{ct}({list(4):{rl}}):{num}}==false):{list(4):{rl}} }}
+{=(num):{num}{all({list(5):{rl}}!=|{{ct}({list(5):{rl}}):{rules}}==true|{{ct}({list(5):{rl}}):{num}}==false):{list(5):{rl}} }}
+{=(num):{num}{all({list(6):{rl}}!=|{{ct}({list(6):{rl}}):{rules}}==true|{{ct}({list(6):{rl}}):{num}}==false):{list(6):{rl}} }}
+{=(num):{num}{all({list(7):{rl}}!=|{{ct}({list(7):{rl}}):{rules}}==true|{{ct}({list(7):{rl}}):{num}}==false):{list(7):{rl}} }}
+{=(num):{num}{all({list(8):{rl}}!=|{{ct}({list(8):{rl}}):{rules}}==true|{{ct}({list(8):{rl}}):{num}}==false):{list(8):{rl}} }}
+{=(num):{num}{all({list(9):{rl}}!=|{{ct}({list(9):{rl}}):{rules}}==true|{{ct}({list(9):{rl}}):{num}}==false):{list(9):{rl}} }}
+{=(num):{num}{all({list(10):{rl}}!=|{{ct}({list(10):{rl}}):{rules}}==true|{{ct}({list(10):{rl}}):{num}}==false):{list(10):{rl}} }}
+{=(num):{num}{all({list(11):{rl}}!=|{{ct}({list(11):{rl}}):{rules}}==true|{{ct}({list(11):{rl}}):{num}}==false):{list(11):{rl}} }}
+{=(num):{num}{all({list(12):{rl}}!=|{{ct}({list(12):{rl}}):{rules}}==true|{{ct}({list(12):{rl}}):{num}}==false):{list(12):{rl}} }}
+{=(num):{num}{all({list(13):{rl}}!=|{{ct}({list(13):{rl}}):{rules}}==true|{{ct}({list(13):{rl}}):{num}}==false):{list(13):{rl}} }}
+{=(num):{num}{all({list(14):{rl}}!=|{{ct}({list(14):{rl}}):{rules}}==true|{{ct}({list(14):{rl}}):{num}}==false):{list(14):{rl}} }}
+{=(num):{num}{all({list(15):{rl}}!=|{{ct}({list(15):{rl}}):{rules}}==true|{{ct}({list(15):{rl}}):{num}}==false):{list(15):{rl}} }}
+{=(num):{num}{all({list(16):{rl}}!=|{{ct}({list(16):{rl}}):{rules}}==true|{{ct}({list(16):{rl}}):{num}}==false):{list(16):{rl}} }}
+{=(num):{num}{all({list(17):{rl}}!=|{{ct}({list(17):{rl}}):{rules}}==true|{{ct}({list(17):{rl}}):{num}}==false):{list(17):{rl}} }}
+{=(num):{num}{all({list(18):{rl}}!=|{{ct}({list(18):{rl}}):{rules}}==true|{{ct}({list(18):{rl}}):{num}}==false):{list(18):{rl}} }}
+{=(num):{num}{all({list(19):{rl}}!=|{{ct}({list(19):{rl}}):{rules}}==true|{{ct}({list(19):{rl}}):{num}}==false):{list(19):{rl}} }}
+{=(num):{num}{all({list(20):{rl}}!=|{{ct}({list(20):{rl}}):{rules}}==true|{{ct}({list(20):{rl}}):{num}}==false):{list(20):{rl}} }}
+{=(num):{num}{all({list(21):{rl}}!=|{{ct}({list(21):{rl}}):{rules}}==true|{{ct}({list(21):{rl}}):{num}}==false):{list(21):{rl}} }}
+{=(num):{num}{all({list(22):{rl}}!=|{{ct}({list(22):{rl}}):{rules}}==true|{{ct}({list(22):{rl}}):{num}}==false):{list(22):{rl}} }}
+{=(num):{num}{all({list(23):{rl}}!=|{{ct}({list(23):{rl}}):{rules}}==true|{{ct}({list(23):{rl}}):{num}}==false):{list(23):{rl}} }}
+{=(num):{num}{all({list(24):{rl}}!=|{{ct}({list(24):{rl}}):{rules}}==true|{{ct}({list(24):{rl}}):{num}}==false):{list(24):{rl}}}}
+
+{=(comment):The following tests to see if args are empty, or if help or keyword are present, or if the input failed to generate a shortened list of rules, and if so, sets the rule numbers to the full list of rules}
+{=(largs):{lower:{args}}}
+{=(num):{any({largs(1)}==|{all({in(help):{largs}}==false|{in(keyword):{largs}}==false|{num}==):true|false}==true):{join(,):{rules}}|{join(,):{num}}}}
+
+{=(comment):Embed field generation for rule output, don't touch. ┐ = comma placeholder character}
+{=(ilf):,"inline":false}
+{=(cfields):{if({list(0):{num}}!=):{"name":"{t{list(0):{num}}}","value":"{rule{list(0):{num}}}"{ilf}}}┐{if({list(1):{num}}!=):{"name":"{t{list(1):{num}}}","value":"{rule{list(1):{num}}}"{ilf}}}┐{if({list(2):{num}}!=):{"name":"{t{list(2):{num}}}","value":"{rule{list(2):{num}}}"{ilf}}}┐{if({list(3):{num}}!=):{"name":"{t{list(3):{num}}}","value":"{rule{list(3):{num}}}"{ilf}}}┐{if({list(4):{num}}!=):{"name":"{t{list(4):{num}}}","value":"{rule{list(4):{num}}}"{ilf}}}┐{if({list(5):{num}}!=):{"name":"{t{list(5):{num}}}","value":"{rule{list(5):{num}}}"{ilf}}}┐{if({list(6):{num}}!=):{"name":"{t{list(6):{num}}}","value":"{rule{list(6):{num}}}"{ilf}}}┐{if({list(7):{num}}!=):{"name":"{t{list(7):{num}}}","value":"{rule{list(7):{num}}}"{ilf}}}┐{if({list(8):{num}}!=):{"name":"{t{list(8):{num}}}","value":"{rule{list(8):{num}}}"{ilf}}}┐{if({list(9):{num}}!=):{"name":"{t{list(9):{num}}}","value":"{rule{list(9):{num}}}"{ilf}}}┐{if({list(10):{num}}!=):{"name":"{t{list(10):{num}}}","value":"{rule{list(10):{num}}}"{ilf}}}┐{if({list(11):{num}}!=):{"name":"{t{list(11):{num}}}","value":"{rule{list(11):{num}}}"{ilf}}}┐{if({list(12):{num}}!=):{"name":"{t{list(12):{num}}}","value":"{rule{list(12):{num}}}"{ilf}}}┐{if({list(13):{num}}!=):{"name":"{t{list(13):{num}}}","value":"{rule{list(13):{num}}}"{ilf}}}┐{if({list(14):{num}}!=):{"name":"{t{list(14):{num}}}","value":"{rule{list(14):{num}}}"{ilf}}}┐{if({list(15):{num}}!=):{"name":"{t{list(15):{num}}}","value":"{rule{list(15):{num}}}"{ilf}}}┐{if({list(16):{num}}!=):{"name":"{t{list(16):{num}}}","value":"{rule{list(16):{num}}}"{ilf}}}┐{if({list(17):{num}}!=):{"name":"{t{list(17):{num}}}","value":"{rule{list(17):{num}}}"{ilf}}}┐{if({list(18):{num}}!=):{"name":"{t{list(18):{num}}}","value":"{rule{list(18):{num}}}"{ilf}}}┐{if({list(19):{num}}!=):{"name":"{t{list(19):{num}}}","value":"{rule{list(19):{num}}}"{ilf}}}┐{if({list(20):{num}}!=):{"name":"{t{list(20):{num}}}","value":"{rule{list(20):{num}}}"{ilf}}}┐{if({list(21):{num}}!=):{"name":"{t{list(21):{num}}}","value":"{rule{list(21):{num}}}"{ilf}}}┐{if({list(22):{num}}!=):{"name":"{t{list(22):{num}}}","value":"{rule{list(22):{num}}}"{ilf}}}┐{if({list(23):{num}}!=):{"name":"{t{list(23):{num}}}","value":"{rule{list(23):{num}}}"{ilf}}}┐{if({list(24):{num}}!=):{"name":"{t{list(24):{num}}}","value":"{rule{list(24):{num}}}"{ilf}}}}
+
+{=(comment):different description holding variables}
+{=(instr):__Instructions__
+Follow the command with the number(s) of the rules you wish to output with spaces in between. Additional accepted formats are:
+#*x*-#*y* to indicate rules from #*x* to #*y* (limit 1x`-`)
+#+ to indicate rules from # to the end of the list of rules
++# to indicate rules from 1 to # (limit 2x`+`)
+You can also mix in keywords that have been set (don't mix keywords and symbols).
+Examples: `-faq +2 invite 4-6 8+` }
+
+{=(kw):__Keywords__
+{keyword01} {keyword02} {keyword03} {keyword04} {keyword05} {keyword06} {keyword07} {keyword08} {keyword09} {keyword10} {keyword11} {keyword12} {keyword13} {keyword14} {keyword15} {keyword16} {keyword17} {keyword18} {keyword19} {keyword20} {keyword21} {keyword22} {keyword23} {keyword24} {keyword25}}
+
+{=(comment):Embed fields}
+{=(footer):}
+{=(des):{if({in(help):{largs}}==true):{instr}|{if({in(keyword):{largs}}==true):{kw}|{if({ruleschannelid}!=):<#{ruleschannelid}>}}}}
+
+{=(comment):finalizes the json for the embed by replacing spaces with a filler character, replacing comma placeholder characters with spaces, joining the spaces with commas, and replacing the filler characters with spaces again. this ensures there are no commas preceeding JSON fields, nor trailing the last JSON field. also includes logic choosing whether to display the full rules list (if args or the input number list are empty AND help/keyword are not displayed) or the custom rules list}
+{=(json):"title":"{embedtitle}","description":"{des}","fields":[{{r}(░,
+):{{r}(█, ):{join(,):{{r}(┐, ):{{r}(
+,░):{{r}( ,█):{cfields}}}}}}}],"author":{"name":"{server}","icon_url":"{server(icon)}"},"color":16740612,"footer":{"text":"{footer}"}}
+
+{c:cembed {if({in(<#):{args}}==true):{args({index(<#):{{r}(<#,. <# .):{args}}})}|{channel(id)}} {{json}}}
