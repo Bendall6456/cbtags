@@ -5,20 +5,20 @@
 {=(r3):**Why are there multiple bots?**\n\nDiscord does not allow bots to join more than one voice channel in a server, so to help people listen to different things in the same server we have multiple bots.\n\n> You can invite them using the links:\n> **[Chip `ch!`](https://discord.com/oauth2/authorize?client_id=614109280508968980&scope=bot&permissions=8)**\n> **[Chip 2 `cp!`](https://discord.com/oauth2/authorize?client_id=679643572814741522&scope=bot&permissions=8)**\n> **[Chip 3 `ci!`](https://discord.com/oauth2/authorize?client_id=634695585508884505&scope=bot&permissions=8)**}
 {=(r4):**How to only allow the bot to work in certain text channels**\nTo restrict the bot to certain channels, we use the built in permission system on Discord!\n\n1️⃣ **Make sure none of Chip's Role(s) give it the Administrator Permissions**\nIf a user has Administrator, all other permissions are ignored.\n\n2️⃣ **Remove Read Messages Permissions from the channels you would not like it to respond in**\nGo to the channel settings, and decline the Chip Bot / Role the permissions `Read Messages` in the channels you would not like it in.}
 {=(r5):**How to only allow the bot to work in certain voice channels**\nTo restrict the bot to certain channels, we use the built in permission system on Discord!\n\n1️⃣ **Make sure none of Chip's Role(s) give it the Administrator Permissions**\nIf a user has Administrator, all other permissions are ignored.\n\n2️⃣ **Remove Connect Permissions from the channels you would not like it to respond in**\nGo to the channel settings, and decline the Chip Bot / Role the permissions `Connect` in the channels you would not like it in.}
-{=(r6):You can pass these key words `{join(`, `):{opt}}` to view those sections specifically}
-{=(r-1): :x: **You gave no entry!**\nYou can view the keywords using `-c keywords`}
+{=(r6):📋**You can choose from these options:**\n `{join(`, `):{opt}}`}
+{=(r-1): ❌ **You gave no entry!**\nYou can view the keywords using `-c keywords`}
 {=(r7):**How do I submit a suggestion?**\nTo submit a suggestion use `?suggest (suggestion)` in <#616009111795925021>.\n*Please use the search function on Discord to make sure your suggestion is not a duplicate.*}
 {=(r8):**I cannot hear Chip!**\n\n`1.` Look above your username (with the mute/deafen/settings icons) - does it say `Voice Connected`? If not, check your internet connection. If it says RTC connecting, consider downloading the Discord desktop client, or try another web browser.\n\n`2.` Check you're not deafened or server deafened.\n\n`3.` Ensure the bot is not client/server muted by right clicking it, and make sure the volume is up in the same place.\n\n`4.`Make sure something is playing using `ch!np` and the bot is not paused using `ch!resume`.\n\n`5.` Make sure your Sound Settings are correct. *(*`User Settings` --> `Voice & Video` --> `Ensure the Output and Input Devices are not set to Default, and are your correct Sound Devices`*)*}
 {=(r9):**Why is Chip deafened?**\n\nChip is automatically deafened to protect your privacy, and show that we do not record audio. It __does not__ affect playback as the bot is __deafened__ not __muted__, if you're having sound issues that is un-related.}
 {=(L1):{lower:{1}}}
 {=(Lopt):{lower:{opt}}}
-{=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|:x: **You gave an invalid entry!**\nYou can view the keywords using `-c keywords`}}}
+{=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|❌ **You gave an invalid entry!**\nYou can view the keywords using `-c keywords`}}}
 {=(json):{
     "author":{
-        "name":"Chip",
+        "name":"Chip Support",
         "icon_url":"https://cdn.discordapp.com/avatars/614109280508968980/ee2bbd51497aa2de1b943957eb30dbc7.webp?size=2048",
     },
-    "color":16729344,
+    "color":16740612,
     "type":"rich",
     "description":"{content}",
     "title":""}}
