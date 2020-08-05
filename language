@@ -1,0 +1,37 @@
+{=(opt):dutch german spanish french chinese japanese keywords russian romanian norweigan portugese arabic korean polish croatian italian hebrew turkish greek}
+{=(r0)::flag_nl: In deze server hebben we liever dat je engels praat, zodat meer mensen je kunnen begrijpen. Bedankt.}
+{=(r1)::flag_de: In diesem Server wird Englisch bevorzugt, weil dir darin mehr Leute helfen können. Danke.}
+{=(r2)::flag_es: Es preferible hablar inglés en este servidor, así más gente podrá ayudarte. Gracias.}
+{=(r3)::flag_fr: Si vous parlez anglais dans ce serveur, il y aura plus de personnes qui seront capable de vous aider. Merci.}
+{=(r4)::flag_cn: 如果你在此服说英文你将会有更多人帮助你，谢谢。}
+{=(r5)::flag_jp: このサーバーには英語で話す場合、より多くの人があなたを手伝うことができます。 ありがとうございます.}
+{=(r6):📋**You can choose from these options:**\n `{join(`, `):{opt}}`}
+{=(r7)::flag_ru: Пожалуйста, говорите по-английски на этом сервере, тогда больше людей смогут вам помочь. Спасибо.}
+{=(r8)::flag_ro: Dacă vorbești Engleza pe acest server, mai multe persoane vor putea să te ajute. Mulțumesc.}
+{=(r9)::flag_no: Om du snakker Engelsk på denne serveren, så kan flere folk hjelpe deg. Takk.}
+{=(r10)::flag_pt: É preferível falar inglês neste servidor, mais pessoas poderão te ajudar. Obrigado.}
+{=(r11)::flag_lb: ان تكلمتم باللغة الإنجليزية في هذا السارفور فالأكثرية سيتمكن من مساعدتك}
+{=(r12)::flag_kr: 만약 당신이 이 서버에서 영어를 사용한다면, 많은 사람들이 당신에게 도움을 줄 수 있습니다. 감사합니다.}
+{=(r13)::flag_pl: Jeśli mówisz po angielsku na tym serwerze, więcej osób będzie w stanie Ci pomóc. Dzięki.}
+{=(r14)::flag_hr: Ako pričate engleski jezik u ovom serveru, više ljudi će biti u stanju pomoći vam. Hvala.}
+{=(r15)::flag_it: Se potete parlare inglese in questo server, più persone riusciranno ad aiutarvi}
+{=(r16)::flag_il: אם תדבר אנגלית בשרת זה, יותר אנשים יוכלו לעזור לך, תודה}
+{=(r17)::flag_tr: Bu sunucuda ingilizce konuşursanız, daha fazla kişi size yardım edebilir. Teşekkürler}
+{=(r18)::flag_gr: Αν μηλας Αγγλικά σε αυτόν τον server, ποιο πολλά άτομα θα μπορούν να σε βοηθήσουν. Ευχαριστούμε.}
+{=(r-1):{r0}\n{r1}\n{r2}\n{r3}\n{r4}\n{r5}\n{r8}\n{r9}\n{r10}\n{r11}\n{r12}\n{r13}\n{r14}\n{r15}\n{r16}\n{r17}\n{r18}}
+{=(L1):{lower:{1}}}
+{=(Lopt):{lower:{opt}}}
+{=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `?lang keywords`}}}
+{=(json):{
+"footer":{
+        "text":"\ud83c\uddec\ud83c\udde7 If you speak English on this server, more people will be able to help you. Thanks."
+},
+    "author":{
+        "name":"TacoShack",
+        "icon_url":"https://cdn.discordapp.com/avatars/490707751832649738/8ce00f27e1d399e0cde179621b1fceb8.png",
+    },
+    "color":16729344,
+    "type":"rich",
+    "description":"{content}",
+    "title":""}}
+{c:cembed {json}}
