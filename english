@@ -1,2 +1,39 @@
-{=(i):{if({target(color)}==#000000):#0000ff|{target(color)}}}
-{c:embed {i} English Only | Please note that this is an **English** only server. While we understand that it could cause inconvenience for some users, it's important to remember that we, as mods, would have no clue what people are saying, therefore we will not be able to moderate properly.}
+{=(opt):dutch german spanish french chinese japanese keywords russian romanian norweigan portugese arabic korean polish Italian turkish greek}
+{=(r0)::flag_nl: Let op: dit is een Engels enige server . Hoewel we begrijpen dat dit ongemak kan veroorzaken voor sommige gebruikers, is het belangrijk om te onthouden dat we, als mods, zou geen idee wat mensen zeggen te hebben, daarom zullen wij niet in staat zijn om goed te matigen.}
+{=(r1)::flag_de: Bitte beachten Sie, dass dies ein Englisch nur Server . Während wir verstehen, dass es Unannehmlichkeiten für einige Nutzer dazu führen könnten, ist es wichtig, sich daran zu erinnern, dass wir als mods, würde keine Ahnung, was die Leute sagen, deshalb werden wir nicht richtig moderieren der Lage sein.}
+{=(r2)::flag_es: Tenga en cuenta que se trata de un único servidor de Inglés . Si bien entendemos que podría causar incomodidad para algunos usuarios, es importante recordar que, como mods, tendríamos ni idea de lo que dice la gente, por lo tanto, no vamos a ser capaces de moderar adecuadamente.}
+{=(r3)::flag_fr: S'il vous plaît noter que ceci est un serveur anglais seulement . Nous comprenons que cela pourrait causer des inconvénients pour certains utilisateurs, il est important de se rappeler que nous, mods, aurait aucune idée de ce que les gens disent, par conséquent, nous ne serons pas en mesure de modérer correctement.}
+{=(r4)::flag_cn: 請注意，這只是一個英語服務器 。雖然我們明白，這可能會造成不便對於一些用戶來說，需要記住的是我們作為MODS，就沒有任何線索的人都在說什麼是重要的，因此我們將不能夠正確地適度 。}
+{=(r5)::flag_jp: これは英語版のみのサーバーであることに注意してください 。我々はそれが一部のユーザーに不便を引き起こす可能性があることを理解しますが、それゆえ、我々は適切に中等することはできません、私たちは、モッズとして、人々が何を言っているか見当もつかないということを覚えておくことが重要です 。}
+{=(r6):📋**You can choose from these options:**\n `{join(`, `):{opt}}`}
+{=(r-1): {r1}\n
+:flag_es:Tenga en cuenta que se trata de un único servidor de Inglés . Si bien entendemos que podría causar incomodidad para algunos usuarios, es importante recordar que, como mods,.[`-lang spanish` for more]\n
+{r3}\n
+{r5}\n
+{r6}}
+{=(r7)::flag_ru: Пожалуйста, обратите внимание, что это только английский сервер , Хотя мы понимаем, что это может вызвать неудобства для некоторых пользователей, важно помнить, что мы, как моды, не будем иметь ни малейшего понятия, что люди говорят, поэтому мы не сможем правильно модерировать.}
+{=(r8)::flag_ro: Vă rugăm să rețineți că acesta este un server de numai în limba engleză . In timp ce noi înțelegem că aceasta ar putea provoca neplăceri pentru unii utilizatori, este important să ne amintim că noi, ca mods, nu ar avea nici o idee despre ce spun oamenii, de aceea, nu vom fi în măsură să moderată în mod corespunzător.}
+{=(r9)::flag_no: Vær oppmerksom på at dette er en engelsk server. Selv om vi forstår at det kan føre til ulempe for noen brukere, er det viktig å huske på at vi som mods, ville ikke ha noen anelse hva folk sier, og derfor vil vi ikke være i stand til å moderere riktig.}
+{=(r10)::flag_pt: Por favor note que este é um único servidor Inglês. Embora entendamos que poderia causar inconvenientes para alguns usuários, é importante lembrar que nós, como mods, não teria nenhuma idéia do que as pessoas estão dizendo, portanto, não será capaz de moderar corretamente.}
+{=(r11)::flag_lb: يرجى ملاحظة أن هذا الإنجليزية الخادم فقط . بينما نحن نفهم أنه يمكن أن يسبب الإزعاج لبعض المستخدمين، من المهم أن نتذكر أننا، وتعديل، لن يكون لها أي فكرة عما يقولون الناس، وبالتالي فإننا لن تكون قادرة على معتدلة بشكل صحيح.}
+{=(r12)::flag_kr: 이 영어 전용 서버이므로주의 해주십시오 . 우리가 일부 사용자에 대해 불편을 야기 할 수 있음을 이해하지만, 그것 때문에 우리가 적절하게 완화 할 수 없습니다, 우리는 모드 족으로, 사람들이 말하는 것을 단서가 없다 것이라는 점을 기억하는 것이 중요 .}
+{=(r13)::flag_pl: Należy pamiętać, że jest to jedyny serwer angielski , Zdajemy sobie sprawę, że może to powodować niedogodności dla niektórych użytkowników, ważne jest, aby pamiętać, że my, jako modów, nie miałby pojęcia, co mówią ludzie, dlatego nie będzie w stanie prawidłowo umiarkowanego ,}
+{=(r14)::flag_it: Si prega di notare che questo è un unico server inglese . Pur comprendendo che potrebbe causare disagi per alcuni utenti, è importante ricordare che noi, come mod, avremmo alcun indizio ciò che si dice, quindi non saremo in grado di moderare correttamente .}
+{=(r15)::flag_tr: Bu da bir İngiliz yalnızca sunucu olduğuna dikkat edin . biz bazı kullanıcılar için rahatsızlık neden olabilir anlıyoruz, bu nedenle düzgün orta mümkün olmayacaktır, biz, mod olarak, insanlar ne söylediğini hiçbir ipucu olurdu hatırlamak önemlidir .}
+{=(r16)::flag_gr: Παρακαλώ σημειώστε ότι αυτό είναι ένα μόνο στα Αγγλικά διακομιστής . Αν και καταλαβαίνουμε ότι θα μπορούσε να προκαλέσει προβλήματα για ορισμένους χρήστες, είναι σημαντικό να θυμόμαστε ότι εμείς, ως mods, δεν θα είχε καμία ιδέα τι λέει ο κόσμος, ως εκ τούτου, δεν θα είμαστε σε θέση να μέτρια σωστά .}
+{=(L1):{lower:{1}}}
+{=(Lopt):{lower:{opt}}}
+{=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `?lang keywords`}}}
+{=(json):{
+"thumbnail":{
+        "url":"https://cdn.discordapp.com/attachments/650188087959486465/707015792197107752/4453168-2.gif",
+    },
+    "author":{
+        "name":"Octave Official",
+        "icon_url":"https://cdn.discordapp.com/avatars/686326981322866697/b9bd9ee777df6f06bd11aa64815a18ce.png",
+    },
+    "color":11176191,
+    "type":"rich",
+    "description":"{content}",
+    "title":""}}
+{c:cembed {json}}
