@@ -1,4 +1,4 @@
-{=(opt):dutch german spanish french chinese japanese keywords russian romanian norweigan portugese arabic korean polish Italian turkish greek}
+{=(opt):dutch german spanish french chinese japanese keywords russian romanian norweigan portugese arabic korean polish Italian turkish greek english}
 {=(r0)::flag_nl: Let op: dit is een Engels enige server . Hoewel we begrijpen dat dit ongemak kan veroorzaken voor sommige gebruikers, is het belangrijk om te onthouden dat we, als mods, zou geen idee wat mensen zeggen te hebben, daarom zullen wij niet in staat zijn om goed te matigen.}
 {=(r1)::flag_de: Bitte beachten Sie, dass dies ein Englisch nur Server . Während wir verstehen, dass es Unannehmlichkeiten für einige Nutzer dazu führen könnten, ist es wichtig, sich daran zu erinnern, dass wir als mods, würde keine Ahnung, was die Leute sagen, deshalb werden wir nicht richtig moderieren der Lage sein.}
 {=(r2)::flag_es: Tenga en cuenta que se trata de un único servidor de Inglés . Si bien entendemos que podría causar incomodidad para algunos usuarios, es importante recordar que, como mods, tendríamos ni idea de lo que dice la gente, por lo tanto, no vamos a ser capaces de moderar adecuadamente.}
@@ -21,6 +21,7 @@
 {=(r14)::flag_it: Si prega di notare che questo è un unico server inglese . Pur comprendendo che potrebbe causare disagi per alcuni utenti, è importante ricordare che noi, come mod, avremmo alcun indizio ciò che si dice, quindi non saremo in grado di moderare correttamente .}
 {=(r15)::flag_tr: Bu da bir İngiliz yalnızca sunucu olduğuna dikkat edin . biz bazı kullanıcılar için rahatsızlık neden olabilir anlıyoruz, bu nedenle düzgün orta mümkün olmayacaktır, biz, mod olarak, insanlar ne söylediğini hiçbir ipucu olurdu hatırlamak önemlidir .}
 {=(r16)::flag_gr: Παρακαλώ σημειώστε ότι αυτό είναι ένα μόνο στα Αγγλικά διακομιστής . Αν και καταλαβαίνουμε ότι θα μπορούσε να προκαλέσει προβλήματα για ορισμένους χρήστες, είναι σημαντικό να θυμόμαστε ότι εμείς, ως mods, δεν θα είχε καμία ιδέα τι λέει ο κόσμος, ως εκ τούτου, δεν θα είμαστε σε θέση να μέτρια σωστά .}
+{=(r17)::flag_us: Please note that this is an English only server. While we understand that it could cause inconvenience for some users, it's important to remember that we, as mods, would have no clue what people are saying, therefore we will not be able to moderate properly.}
 {=(L1):{lower:{1}}}
 {=(Lopt):{lower:{opt}}}
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `?lang keywords`}}}
