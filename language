@@ -1,4 +1,4 @@
-{=(opt):dutch german spanish french chinese japanese keywords russian romanian norweigan portugese arabic korean polish croatian italian hebrew turkish greek}
+{=(opt):dutch german spanish french chinese japanese keywords russian romanian norweigan portugese arabic korean polish croatian italian hebrew turkish greek finnish}
 {=(r0)::flag_nl: In deze server hebben we liever dat je engels praat, zodat meer mensen je kunnen begrijpen. Bedankt.}
 {=(r1)::flag_de: In diesem Server wird Englisch bevorzugt, weil dir darin mehr Leute helfen können. Danke.}
 {=(r2)::flag_es: Es preferible hablar inglés en este servidor, así más gente podrá ayudarte. Gracias.}
@@ -18,7 +18,8 @@
 {=(r16)::flag_il: אם תדבר אנגלית בשרת זה, יותר אנשים יוכלו לעזור לך, תודה}
 {=(r17)::flag_tr: Bu sunucuda ingilizce konuşursanız, daha fazla kişi size yardım edebilir. Teşekkürler}
 {=(r18)::flag_gr: Αν μηλας Αγγλικά σε αυτόν τον server, ποιο πολλά άτομα θα μπορούν να σε βοηθήσουν. Ευχαριστούμε.}
-{=(r-1):{r0}\n{r1}\n{r2}\n{r3}\n{r4}\n{r5}\n{r8}\n{r9}\n{r10}\n{r11}\n{r12}\n{r13}\n{r14}\n{r15}\n{r16}\n{r17}\n{r18}}
+{=(r19)::flag_fi: Sinua voidaan auttaa paremmin, jos puhut englantia tällä serverillä. Kiitos.}
+{=(r-1):{r0}\n{r1}\n{r2}\n{r3}\n{r4}\n{r5}\n{r8}\n{r9}\n{r10}\n{r11}\n{r12}\n{r13}\n{r14}\n{r15}\n{r16}\n{r17}\n{r18}\n{r19}}
 {=(L1):{lower:{1}}}
 {=(Lopt):{lower:{opt}}}
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `?lang keywords`}}}
