@@ -1,0 +1,23 @@
+{=(opt):about ep1 ep2 ep3 ep4 keywords}
+{=(r0):**What is the podcast about?**\nThe Ishtar Podcast is a show about Destiny 2, for Destiny 2 players. We will discuss recent events, game metas, and more! Come hang out with us live on Twitch, or listen later on Spotify, Apple Podcast, and YouTube!\n\n**Podcast Schedule**\nWe are doing The Ishtar Podcast live, every Friday night at 10:30pm EST, on [Twitch](https://www.twitch.tv/melmsie)! If you can't make it, it'll be on Spotify and YouTube by Sunday evening! You can check out the podcast [here on Spotify](https://open.spotify.com/show/0kylTrWJQN9ZYNyZc7BnYt?si=mJTeKvKLTVGVDu0SqotTeA), [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-ishtar-podcast/id1524709746) and [on YouTube](https://www.youtube.com/playlist?list=PLhJvknu7IDvnAD6x9ill3aSLEYQEUYWV9)!}
+{=(r1):**Lets dive right into the deep stuff:**\nIn this first episode of TIP, we start with some awkward introductions and it quickly moves into a passionate conversation about a game we all love. We cover topics ranging from new light experiences, all the way to how we think the seasonal model should change, with everything in between.\n\nYou can watch/listen to this episode on the following:\n[Youtube](https://www.youtube.com/watch?v=8p1uOEyD1OM)\n[Apple Podcast](https://podcasts.apple.com/us/podcast/lets-dive-right-into-the-deep-stuff/id1524709746?i=1000486067575)\n[Spotify](https://open.spotify.com/episode/3OBH0JQclKYHZEledL6LAP)}
+{=(r2):**Gameplay Freedom, Endgame Rewards, and Crucible Headaches**\nIn this episode of The Ishtar Podcast, we discuss a lot. (Big surprise there) It ranges anywhere from the state of crucible, to whether or not Destiny 2 feels `free` in terms of gameplay.\n\nYou can watch/listen to this episode on the following:\n[Youtube](https://www.youtube.com/watch?v=guLeAau3BAw)\n[Apple Podcast](https://podcasts.apple.com/us/podcast/gameplay-freedom-endgame-rewards-and-crucible-headaches/id1524709746?i=1000486800759)\n[Spotify](https://open.spotify.com/episode/1BgBVScwSO3dPo02LoVWCa)}
+{=(r3):**Eververse, cosmetics, and RICK KACKIS BICEPS**\nIn this episode of The Ishtar Podcast, we (try to) discuss Eververse as the primary topic. However, you know us and we get offtopic a few times.  Thank you for supporting our podcast! Do you have any suggestions for the next topic?\n\nYou can watch/listen to this episode on the following:\n[Youtube](https://www.youtube.com/watch?v=djViVGAVW94)\n[Apple Podcast](https://podcasts.apple.com/us/podcast/eververse-cosmetics-and-rick-kackis-biceps/id1524709746?i=1000488243799)\n[Spotify](https://open.spotify.com/episode/1L69qBoK85XsJ6ra97gZbj)}
+{=(r4):**LORE Episode w/Lightstyle**\nIn this episode of The Ishtar Podcast, we discuss lore! We also have Lightstyle as a special guest! You can check him out [here](https://www.twitch.tv/lightstyle)!\n\nYou can watch/listen to this episode on the following:\n[Youtube](https://www.youtube.com/watch?v=ic9-7OOdrtk)\n[Apple Podcast](https://podcasts.apple.com/us/podcast/lore-episode-w-lightstyle/id1524709746?i=1000488869866)\n[Spotify](https://open.spotify.com/episode/25G45TMcxe9bh9KZekSls4)}
+{=(r5):You can pass these key words `{join(`, `):{opt}}` to view those sections specifically}
+{=(r-1):<:tickNo:315009174163685377> **I didn't understand that input!**\nYou can view the keywords using `-podcast keywords`}
+{=(L1):{lower:{1}}}
+{=(Lopt):{lower:{opt}}}
+{=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `-podcast keywords`}}}
+{=(json):{
+    "thumbnail":{
+        "url":"https://cdn.discordapp.com/attachments/731832425986129951/735691982667776163/unknown.png",
+    },
+    "author":{
+        "name":"Ishtar Podcast",
+ },
+    "color":7473132,
+    "type":"rich",
+    "description":"{content}",
+    "title":""}}
+{c:cembed {json}}
