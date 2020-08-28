@@ -7,6 +7,7 @@ This is where I will edit or add my carl-bot tags I have made for servers I own/
 [Octave Offical](https://discord.gg/musicbot),
 [Europa](https://discord.gg/H43z7hm),
 [AdAddict](https://discord.gg/fk9jeKq)
+[ok](https://discord.gg/hbAws6G)
 
 ### Contributions
 Albert - [toxicitea ☕](https://discord.gg/4PM7QNr)
