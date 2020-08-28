@@ -38,6 +38,9 @@ For every 5 levels, everyone receives +$100 income!\n\n**The benefits of being i
 {=(Lopt):{lower:{opt}}}
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `?ts keywords`}}}
 {=(json):
+    "thumbnail":{
+        "url":"https://cdn.discordapp.com/icons/495827872292929538/a_b698b9410e9bbdfe661e2fc0db15da2f.gif",
+    },
     "author":{
         "name":"{server}",
         "icon_url":"{server(icon)}",
