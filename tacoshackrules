@@ -252,6 +252,6 @@ Examples: `!rules +2 nsfw 4-6 8+` }
 {=(comment):finalizes the json for the embed by replacing spaces with a filler character, replacing comma placeholder characters with spaces, joining the spaces with commas, and replacing the filler characters with spaces again. this ensures there are no commas preceeding JSON fields, nor trailing the last JSON field. also includes logic choosing whether to display the full rules list (if args or the input number list are empty AND help/keyword are not displayed) or the custom rules list}
 {=(json):"title":"{embedtitle}","description":"{des}","fields":[{{r}(░,
 ):{{r}(█, ):{join(,):{{r}(┐, ):{{r}(
-,░):{{r}( ,█):{cfields}}}}}}}],"author":{"name":"{server}","icon_url":"{server(icon)}"},"color":3092790,"footer":{"text":"{footer}"}}
+,░):{{r}( ,█):{cfields}}}}}}}],"author":{"name":"{server}","icon_url":"{server(icon)}"},"color":3092790}
 
 {c:cembed {if({in(<#):{args}}==true):{args({index(<#):{{r}(<#,. <# .):{args}}})}|{channel(id)}} {{json}}}
