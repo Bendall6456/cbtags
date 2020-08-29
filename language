@@ -30,13 +30,13 @@
         "url":"https://cdn.discordapp.com/icons/495827872292929538/a_b698b9410e9bbdfe661e2fc0db15da2f.gif",
     },
 "footer":{
-        "text":"\ud83c\uddec\ud83c\udde7 If you speak English on this server, more people will be able to help you. Thanks."
+        "text":"🇬🇧 If you speak English on this server, more people will be able to help you. Thanks."
 },
     "author":{
-        "name":"TacoShack",
-        "icon_url":"https://cdn.discordapp.com/avatars/490707751832649738/8ce00f27e1d399e0cde179621b1fceb8.png",
+        "name":"{server}",
+        "icon_url":"{server(icon)}",
     },
-    "color":16729344,
+    "color":3092790,
     "type":"rich",
     "description":"{content}",
     "title":""}}
