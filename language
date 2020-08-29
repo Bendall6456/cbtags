@@ -27,7 +27,7 @@
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `?lang keywords`}}}
 {=(json):{
  "thumbnail":{
-        "url":"https://cdn.discordapp.com/icons/495827872292929538/a_b698b9410e9bbdfe661e2fc0db15da2f.gif",
+        "url":"https://cdn.discordapp.com/attachments/742805681534402611/749356047902441492/newLogo.jpg",
     },
 "footer":{
         "text":"🇬🇧  If you speak English on this server, more people will be able to help you. Thanks."
