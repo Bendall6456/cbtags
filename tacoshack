@@ -5,7 +5,7 @@
 {=(r3):**🔺 Shack Expansion Help 🔺**\nExpand your shack to purchase more upgrades, decorations, advertisements, and hire more employees!\n\n**Shack Expansion Levels**:\n```1 - At $5,000/hr income, costs $100,000\n2 - At $10,000/hr income, costs $1,000,000\n3 - At $15,000/hr income, costs $5,000,000```\nUse `!expand` to expand your shack!}
 {=(r4):**🧾 Coupons**\n- You can receive coupons from leveling up, voting or reaching a 7 day daily streak.\n- To view your coupons, use `!coupons` and to redeem a coupon, use `!redeem`\n- Each coupon gives a random amount of money, usually around $5,000 - $20,000, but can potentially give up to $500,000\n- This is just a little extra feature and makes leveling and voting more rewarding.}
 {=(r5):**The benefits of being in a franchise include**\n💵`+100\/h for joining` `(+250\/h if you're owner)`\n💵`+100\/h for every 5 levels`\n💰 `Work overtime to earn some extra money for you and your franchise`\n<:update:562310124006277148> `Increased income, work & tip money depending on Franchise Upgrades`\n⭐`You can compete on the leaderboards`\n\nYou can use the command `!f info` in a play channel to see more information.\nTo join a franchise look in <#663937997313540128> and follow the instructions.}
-{=(r6):You can pass these key words `{join(`, `):{opt}}` to view those sections specifically}
+{=(r6):__Keywords__\n{join( ):{opt}}}
 {=(r7):**Giving money to other users**\n**The developers of TacoShack have thoroughly thought about this idea and have decided not to implement the ability to give money to other users.**\n\n**We made this decision for 2 primary reasons:**\n#1: Users who wish to cheat could easily abuse this by making multiple accounts and channeling money to a single account. Affecting the ranking of the global leaderboards.\n#2: We felt there was a small chance where users of the bot would have people give them money in real life for the bot's currency.\n\n**(If\/When)** we make an update to allow server based shacks then we would implement this...}
 {=(r8):**How do I increase my hourly income?**\n• `!hire`\n• `!upgrades` aka `!up`\n• `!ads`\n• `!deco`\n\nThese have different employees you can hire, upgrades to make your shack nicer and ads to raise your visibility! All of these will contribute to your passive income.}
 {=(r9):**<:tacoshack:666838731877122086> __Invite the Bot!__**\nYou can invite the bot to a server if you have `Administrator` or `Manage Server` in [here](https://discord.com/oauth2/authorize?client_id=490707751832649738&permissions=67497024&scope=bot).\n\n**__Our Community Server__**\nWe have a Community Server you are welcome to [join](https://discord.gg/GkXJ4ud)\n\n**__Our Emoji Server__**\nSearching for a place to drop your best emotes? Head to our [emote server](https://discord.gg/rgA9kwB) to have fun!}
@@ -37,7 +37,7 @@ For every 5 levels, everyone receives +$100 income!\n\n{r5}}
 {=(r-1):<:tickNo:315009174163685377> **I didn't understand that input!**\nYou can view the keywords using `?ts keywords`}
 {=(L1):{lower:{1}}}
 {=(Lopt):{lower:{opt}}}
-{=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `?ts keywords`}}}
+{=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `?ts keywords`}}
 {=(json):{
     "author":{
         "name":"{server}",
