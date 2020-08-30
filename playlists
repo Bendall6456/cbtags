@@ -1,0 +1,26 @@
+{=(opt):create delete edit import load add save keywords}
+{=(r0):**How can I create a playlist?**\n`_playlists create playlistname`\nIf I want to name my playlist Pop Music, then I do `_playlists create Pop Music`.}
+{=(r1):**How can I delete a playlist?**\n`_playlists delete playlistname`\nIf the playlist name is, for example, Pop Music then we do `_playlists delete Pop Music`. If one of the letters is capitalized, you MUST capitalize it or it will not delete the playlist and you MUST say the full name of the playlist, this helps prevent accidental deletion of another playlist.}
+{=(r2):**How can I edit my playlist?**\n`_playlists edit playlistname`\n**How can I see the help menu on how to edit my playlist?**\nWhen you run the edit command, type `help`, you can see the full list on how to remove songs, move songs, etc.\n\n**How can I remove songs from my playlist?**\nAfter running the edit command, if the song you want to remove is the 4th song on the list, then you do `remove 4` without a prefix.\n\n**How can I move a song to another position in my playlist?**\nAfter running the edit command, if you want to move the 4th song in the list to 5th spot, then you do `move 4 5` without a prefix.\n\n**How can I change the page of my playlist?**\nAfter running the playlist command, if you want to change the page of the playlist, for example, if you want to see page 3 of your playlist, then you do `page 3` without a prefix.\n\n**How can I rename my playlist?**\nAfter running the edit command, if my playlist name was Country Music and I want to change it to Country, then I do `rename Country` without a prefix.\n\n**How can I resend the track list without scrolling up again?**\nAfter running the edit command, if you want to see the track list without scrolling again, then you can do `resend` without a prefix.\n\n**How can I save my changes on my playlist?**\nAfter running the edit command and editing your playlist, if you want to save your changes, then you can do `save` without a prefix and it will save your changes on your playlist.\n\n**How can I exit on editing the playlist?**\nAfter running the edit command, if you want to exit and not make any changes, then you do `exit` without a prefix. However, if you do make changes and do exit instead of save it WILL discard your changes.}
+{=(r3):**How can I import a playlist from YouTube/Soundcloud/etc?**\n`_playlists import <link goes here> playlistname`\nIf you want to import a playlist from Spotify and name the playlist Country, then you do `_playlists import https://open.spotify.com/playlist/6tf9QR1xBuyzdw3wfNtIvk?si=MzgIReLWSr-FQXg_al30yA Country`.}
+{=(r4):**How can I play my playlist?**\n`_playlists load playlistname`\nIf I want to play my country playlist, then I do `_playlists load country`.}
+{=(r5):**How do I add songs to my playlist?**\n`_add playlistname song/url`\nIf I want to add a song to my Pop playlist, you can either search for the song or use a URL, for example, `_add Pop https://www.youtube.com/watch?v=dT2owtxkU8k`.}
+{=(r6):**How can I save a queue to a playlist?**\n`_savequeue playlistname`\nIf I want to save some songs that are in the queue to my country playlist, then I do `_savequeue Country` and it will save it to the playlist.\n\n**How can I save what is currently playing to a playlist?**\n`_saveto playlistname`\nIf I want to save what is currently playing to my pop playlist, then I do `_saveto Pop`.}
+{=(r7):You can pass these keywords `{join(`, `):{opt}}` to view those sections specifically}
+{=(r-1):<:tickNo:315009174163685377> **I didn't understand that input!**\nYou can view the keywords using `-pl keywords`}
+{=(L1):{lower:{1}}}
+{=(Lopt):{lower:{opt}}}
+{=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `-pl keywords`}}}
+{=(json):{
+    "thumbnail":{
+        "url":"https://cdn.discordapp.com/attachments/650188087959486465/707015792197107752/4453168-2.gif",
+    },
+    "author":{
+        "name":"Octave Official",
+        "icon_url":"https://cdn.discordapp.com/avatars/686326981322866697/b9bd9ee777df6f06bd11aa64815a18ce.png",
+    },
+    "color":11176191,
+    "type":"rich",
+    "description":"{content}",
+    "title":""}}
+{c:cembed {json}}
