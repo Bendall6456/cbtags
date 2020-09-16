@@ -19,7 +19,7 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title01):}
 {=(keyword01):invite}
-{=(rule01):• Do not post discord invite links}
+{=(rule01):• Do not post malicious websites or invite links.}
 
 {=(title02):}
 {=(keyword02):cursing}
@@ -35,7 +35,7 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title05):}
 {=(keyword05):ads}
-{=(rule05):• No soliciting or advertising Discord servers, YouTube, Twitch, etc. Do not post malicious websites. }
+{=(rule05):• No soliciting or advertising Discord servers, YouTube, Twitch, Fiverr etc. }
 
 {=(title06):}
 {=(keyword06):beg}
