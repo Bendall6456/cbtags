@@ -5,7 +5,7 @@
 {=(r3)::flag_fr: Si vous parlez anglais dans ce serveur, il y aura plus de personnes qui seront capable de vous aider. Merci.}
 {=(r4)::flag_cn: 如果你在此服说英文你将会有更多人帮助你，谢谢。}
 {=(r5)::flag_jp: このサーバーには英語で話す場合、より多くの人があなたを手伝うことができます。 ありがとうございます.}
-{=(r6):📋**You can choose from these options:**\n `{join(`, `):{opt}}`}
+{=(r6):__Keywords__\n {join( ):{opt}}}
 {=(r7)::flag_ru: Пожалуйста, говорите по-английски на этом сервере, тогда больше людей смогут вам помочь. Спасибо.}
 {=(r8)::flag_ro: Dacă vorbești Engleza pe acest server, mai multe persoane vor putea să te ajute. Mulțumesc.}
 {=(r9)::flag_no: Om du snakker Engelsk på denne serveren, så kan flere folk hjelpe deg. Takk.}
@@ -27,8 +27,9 @@
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `?lang keywords`}}}
 {=(json):{
 "footer":{
-        "text":"🇬🇧  If you speak English on this server, more people will be able to help you. Thanks."
-},
+        "text":"If you speak English on this server, more people will be able to help you. Thanks.",
+        "icon_url":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/237/flag-for-united-kingdom_1f1ec-1f1e7.png",
+    },
     "author":{
         "name":"{server}",
         "icon_url":"{server(icon)}",
