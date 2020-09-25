@@ -38,7 +38,7 @@ For every 5 levels, everyone receives +$100 income!\n\n{r5}}
 {=(r34):🐛🔨 **Report a Bug**\nIf you would like to let us know of an issue you have found you can use the command `-bugreport [bug]` in <#599696066505474058>. Your report must be over 30 characters.\n\nAlternatively, let a Staff Member know who will pass it on.}
 {=(r35):🗒️ **Commands List**\nYou can find a detailed list of commands [here](http://tacoshack.dev/commands).}
 {=(r36):🎟️ **Taco Lottery**\n- View the lottery in <#747923260020359178>: Each lottery lasts two days with a one day break inbetween.\n- Use `$buy [# of tickets]` and `$tickets` in <#599696066505474058>\n- Each ticket costs **$1,000**, and you can purchase a maximum of **200!**}
-{=(r37):ℹ **Scratch Ticket Information**\n**$5,000 Income** => Scratcher Cost  **$100**\nRewards: (Min: **$10** Max: **$5,000**)\n\n**$5,000 - $15,000 Income** => Scratcher Cost **$1,000**\nRewards: (Min: **$100** Max: **$50,000**)\n\n**$15,000 - $25,000** Income => Scratcher Cost **$5,000**\nRewards: (Min: **$500** Max: **$250,000**)\n\n**$25,000** Income => Scratcher Cost **$20,000**\nRewards: (Min: **$5,000** Max: **$1,000,000)**}
+{=(r37):ℹ **Scratch Ticket Information**\n**$5,000 Income** => Scratcher Cost  **$100**\nRewards: (Min: **$10** Max: **$5,000**)\n\n**$5,000 - $15,000 Income** => Scratcher Cost **$1,000**\nRewards: (Min: **$100** Max: **$50,000**)\n\n**$15,000 - $25,000** Income => Scratcher Cost **$5,000**\nRewards: (Min: **$500** Max: **$250,000**)\n\n**$25,000** Income => Scratcher Cost **$20,000**\nRewards: (Min: **$2,000** Max: **$1,000,000)**}
 {=(r-1):<:tickNo:315009174163685377> **I didn't understand that input!**\nYou can view the keywords using `?ts keywords`}
 {=(L1):{lower:{1}}}
 {=(Lopt):{lower:{opt}}}
