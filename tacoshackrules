@@ -31,7 +31,7 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title04):}
 {=(keyword04):spam}
-{=(rule04):• Do not spam. If you are found spamming, you will be warned, muted or banned depending on the severity of it. XP farming using commands such as `!scratch` or `!f donate` is also prohibited}
+{=(rule04):• Do not spam. If you are found spamming, you will be warned, muted or banned depending on the severity of it. XP farming using commands such as `!scratch` or `!f donate` is also prohibited.}
 
 {=(title05):}
 {=(keyword05):ads}
@@ -47,7 +47,7 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title08):}
 {=(keyword08):earrape}
-{=(rule08):• No ear-rape or any inappropriate/racist stuff in either songs or memes.}
+{=(rule08):• No ear-rape or any inappropriate/racist content in either songs or memes.}
 
 {=(title09):}
 {=(keyword09):sfw}
