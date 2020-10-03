@@ -36,7 +36,7 @@ For every 5 levels, everyone receives +$100 income!\n\n{r5}}
 {=(r33):<:patreonlogopngbadge7:749956974917058611> **Support TacoShack on Patreon!**\n:link: Find our page [here](https://www.patreon.com/tacoshack)\nGet perks for your **whole server** by pledging, with multiple levels available!\n\n__**F.A.Q.**__\n> **Q:** Pledged and not got the role here yet?\n**A:** Please follow [this](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) guide.\n> **Q:** How do I find my Server ID?\nPlease follow [this](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) guide.\n> **Q:** Do Donator and Server Upgrades stack?\n**A:** Yes.\n> **Q:** Can I upgrade a server multiple times?\n**A:** No.}
 {=(r34):🐛🔨 **Report a Bug**\nIf you would like to let us know of an issue you have found you can use the command `-bugreport [bug]` in <#599696066505474058>. Your report must be over 30 characters.\n\nAlternatively, let a Staff Member know who will pass it on.}
 {=(r35):🗒️ **Commands List**\n> You can find a detailed list of commands [here](http://tacoshack.dev/commands).}
-{=(r36):🎟️ **Taco Lottery**\n• View the lottery in <#747923260020359178>: Each lottery lasts two days with a one day break inbetween.\n• Use `$buy [# of tickets]` and `$tickets` in <#599696066505474058>\n• Each ticket costs **$1,000**, and you can purchase a maximum of **200!**}
+{=(r36):🎟️ **Taco Lottery**\n• View the lottery in <#747923260020359178>: Each lottery lasts two days with a one day break inbetween.\n• Use `$buy [# of tickets]` and `$tickets` in <#599696066505474058>\n• Each ticket costs **$1,000**, and you can purchase a maximum of **200**!}
 {=(r37):ℹ **Scratch Ticket Information**\n**$5,000 Income** => Scratcher Cost  **$100**\n> Rewards: (Min: **$10** Max: **$5,000**)\n\n**$5,000 - $15,000 Income** => Scratcher Cost **$1,000**\n> Rewards: (Min: **$100** Max: **$50,000**)\n\n**$15,000 - $25,000** Income => Scratcher Cost **$5,000**\n> Rewards: (Min: **$500** Max: **$250,000**)\n\n**$25,000** Income => Scratcher Cost **$20,000**\n> Rewards: (Min: **$2,000** Max: **$1,000,000)**}
 {=(r38):<a:ablobjoin:635256362850451476> **Joining a Franchise**\nTo join a franchise, feel free to take a look at <#663937997313540128> and find one of your liking.\n> Some franchises will have **requirements**, which should be listed in the message.\n\nTo apply to join a franchise - just follow the instructions in the advert.\n> This would usually be to DM someone listed in the message, please be patient when waiting for a response!}
 {=(r-1):<:tickNo:315009174163685377> **I didn't understand that input!**\nYou can view the keywords using `?ts keywords`}
@@ -45,7 +45,7 @@ For every 5 levels, everyone receives +$100 income!\n\n{r5}}
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `?ts keywords`}}
 {=(json):{
     "footer":{
-        "text":"Boo! ~ Happy Halloween!",
+        "text":"Boo! ~ Happy Spooky Season!",
         "icon_url":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/237/jack-o-lantern_1f383.png",
     },
     "author":{
