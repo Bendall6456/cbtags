@@ -1,4 +1,4 @@
-{require(⚠️{mention}, You must be a **Staff Member** to run this command!): 517165480121991168, 497200282573471755, 496048080253354025, 496047856017473567, 272999717162713090} {delete}
+{require(⚠ {mention}, you must be a **Staff Member** to use this command!):720487742290788383, 496048080253354025, 497200282573471755, 517165480121991168, 496047856017473567} {delete}
 {=(comment):
 If you would like the tag to always display a link to your rules channel in the description when you are listing rules
 Insert the channel id of your rules channel below. Leave completely blank and it will not display.}
@@ -19,7 +19,7 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title01):}
 {=(keyword01):invite}
-{=(rule01):• Do not post malicious websites or invite links.}
+{=(rule01):• Do not post malicious websites or invite links. No chainmail either.}
 
 {=(title02):}
 {=(keyword02):cursing}
