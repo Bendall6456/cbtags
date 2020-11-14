@@ -39,7 +39,7 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title06):}
 {=(keyword06):beg}
-{=(rule06):• Do not beg for roles, money, or XP (or anything).}
+{=(rule06):• Do not beg or bribe for roles, money, or XP (or anything).}
 
 {=(title07):}
 {=(keyword07):play}
@@ -63,15 +63,15 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title12):}
 {=(keyword12):english}
-{=(rule12):• If you understand English, use it, as we are unable to moderate all languages. }
+{=(rule12):• If you understand English, use it, as we are unable to moderate all languages.}
 
 {=(title13):}
 {=(keyword13):respect}
-{=(rule13):• Respect everyone and listen to staff (do not argue with staff). If you do not agree with a staff member, ask for assistance from any higher ranked staff. }
+{=(rule13):• Respect everyone and listen to staff (do not argue with staff). If you do not agree with a staff member, ask for assistance from any higher ranked staff.}
 
 {=(title14):}
 {=(keyword14):mention}
-{=(rule14):• Have your name mentionable and appropriate. Do not set your name to anything that could cause a mass mention. It will be updated otherwise. }
+{=(rule14):• Have your name mentionable and appropriate. Do not set your name to anything that could cause a mass mention. It will be updated otherwise.}
 
 {=(title15):}
 {=(keyword15):auto}
@@ -94,8 +94,8 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 {=(rule19):• If there is clearly staff online and active, let them do their job to avoid cluttering the channels with duplicate answers. }
 
 {=(title20):}
-{=(keyword20):}
-{=(rule20):}
+{=(keyword20):franchise}
+{=(rule20):• No unsolicited franchise advertising, which includes, but is not limited to: DMs and harassment in text channels.}
 
 {=(title21):}
 {=(keyword21):}
