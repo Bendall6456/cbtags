@@ -43,7 +43,7 @@ For every 5 levels, everyone receives +$100 income!\n\n{r5}}
 {=(r40):♦️ **Blackjack Help**\n> Feel free to watch [this](https://www.youtube.com/watch?v=-9YGKFdP6sY) video to understand blackjack!}
 {=(r41):⏲️ **Overtime**\n• You can work `!overtime` every **30 minutes**!\n• Available for **franchise members only**, it gives **2.0x** your *base* work income.\n> (does not include donator, patreon or franchise boosts)\n• `!overtime` can be increased by upgrading `appliances` found in `!upgrades`\nas well as `overtime management` in your franchise\n• **100%** of that income is copied into your shack balance.\n• **75%** of that income is copied into your franchise balance.}
 {=(r42):🧭 **Finding your Shard ID**\nTo find your Shard Number, please use `!stats` in your server, and screenshot the output and send it here. The line we are looking for is:\n```Shards: # [ID: #]```}
-{=(r43):🏅 **Achievements**\nUnlock achievements on your shack to gain a reward!\n> Find the full list of achievements [here](https://tacoshack.dev/achievements/)}
+{=(r43):🏅 **Achievements**\n• Unlock achievements on your shack to gain a reward!\n• To view your achievements use `!a` or `!achievements`\n> Find the full list of achievements [here](https://tacoshack.dev/achievements/)}
 {=(r44):🎁 **Gifts**\n• You can send gifts to fellow shack owners using the command `!gift [@mention]`\n> The recipient will receive between $5k-15k\n• You can send up to three gifts per day, which each having a 24h cooldown\n• To view this cooldown / your remaining gifts use `!gift`}
 {=(r-1):<:tickNo:315009174163685377> **I didn't understand that input!**\nYou can view the keywords using `?ts keywords`}
 {=(L1):{lower:{1}}}
