@@ -12,6 +12,10 @@
 {=(Lopt):{lower:{opt}}}
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the command list using `-pl help`}}}
 {=(json):{
+"footer":{
+        "text":"Happy Holidays!",
+        "icon_url":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/christmas-tree_1f384.png",
+    },
        
     "thumbnail":{
         "url":"https://cdn.discordapp.com/attachments/650188087959486465/707015792197107752/4453168-2.gif",
