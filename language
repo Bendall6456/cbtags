@@ -24,7 +24,7 @@
 {=(r-1):{r0}\n{r1}\n{r2}\n{r3}\n{r4}\n{r5}\n{r8}\n{r9}\n{r10}\n{r11}\n{r12}\n{r13}\n{r14}\n{r15}\n{r16}\n{r17}\n{r18}\n{r19}\n{r20}\n{r21}}
 {=(L1):{lower:{1}}}
 {=(Lopt):{lower:{opt}}}
-{=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:315009174163685377> **You gave an invalid entry!**\nYou can view the keywords using `?lang keywords`}}}
+{=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|{if({args(1)}==perks):perks|<:tickNo:793101354591191080> **You gave an invalid entry!**\nYou can view the keywords using `?lang keywords`}}}
 {=(json):{
     "thumbnail":{
         "url":"https://cdn.discordapp.com/emojis/769113638966657025.png?v=1",
