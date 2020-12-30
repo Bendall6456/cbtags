@@ -61,15 +61,11 @@ For every 5 levels, everyone receives +$100 income!\n\n{r5}}
 {=(Lopt):{lower:{opt}}}
 {=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|<:tickNo:793101354591191080> **You gave an invalid entry!**\nYou can view the keywords using `?ts keywords`}}
 {=(json):{
-"footer":{
-        "text":"Happy Holidays!",
-        "icon_url":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/christmas-tree_1f384.png",
-    },
     "author":{
         "name":"{server}",
         "icon_url":"{server(icon)}",
     },
-    "color":1338170,
+    "color":3092790,
     "type":"rich",
     "description":"{content}",
     "title":""}}
