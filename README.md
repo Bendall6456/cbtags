@@ -5,7 +5,6 @@ This is where I will edit or add my carl-bot tags I have made for servers I own/
 [Open Veil](https://discord.gg/V4zXs3k) (Where I make the tags),
 [The Wrestling Nation](https://discord.gg/tvsnf2c),
 [Octave Offical](https://discord.gg/musicbot),
-[Europa](https://discord.gg/H43z7hm),
 [AdAddict](https://discord.gg/fk9jeKq),
 [ok](https://discord.gg/hbAws6G)
 
