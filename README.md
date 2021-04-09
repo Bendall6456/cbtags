@@ -6,7 +6,7 @@ This is where I will edit or add my carl-bot tags I have made for servers I own/
 [The Wrestling Nation](https://discord.gg/tvsnf2c),
 [Octave Offical](https://discord.gg/musicbot),
 [AdAddict](https://discord.gg/fk9jeKq),
-[ok](https://discord.gg/hbAws6G)
+[Melsmise's Stream Server](https://discord.gg/hbAws6G)
 
 ### Contributions
 Albert - [toxicitea ☕](https://discord.gg/4PM7QNr)
