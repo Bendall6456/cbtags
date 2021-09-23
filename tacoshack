@@ -60,10 +60,10 @@ For every 5 levels, everyone receives +$100 income!\n\n{r5}}
 {=(r52):🗺 **Locations**\nPurchase new locations to sell more tacos at new places!\n\n:earth_americas: **Current Locations**```diff\n+ Beach\n  Requirements:\n    • $30,000/h Shack Income\n    • $50,000,000\n+ City\n  Requirements:\n    • $40,000/h Beach Income\n    • $75,000,000\n```\n\n:moneybag: Purchase a new location using `!location buy [location]`\n> Purchasing a new location rewards 50 Coupons to give you a good start!\n\nFor more information on managing your different locations, use `!location help`}
 {=(r53):🥫 **Sauce Market**\n• The Sauce Market is a TacoShack implementation of the **Stock Market**\n• There are different sauces that you can purchase - and their price will fluctuate over time (prices update every hour)\n• You would aim to buy and sell sauces to make a profit!\n\n:information_source: **Information**\n• Sauces will expire after 7 days\n• You must wait 4 hours after purchasing, before being able to sell a sauce\n• You can have up to 10 orders at once, with each order having a maximum quantity of 5,000 sauces\n\n:map: Sauces are linked to a location, so selling a sauce will give the money to the location it was purchased at\n\n> Please do not ask us for information on what sauces to buy\n> For more information on command usage, use `!sm help`}
 {=(r54):🏷 **Franchise Tags**\nFind available franchise tags [here](<https://tacoshack.online/tags>)}
-{=(r-1):<:tickNo:793101354591191080> **I didn't understand that input!**\nYou can view the keywords using `?ts keywords`}
+{=(r-1):<:xmark:623703744537952296> **I didn't understand that input!**\nYou can view the keywords using `?ts keywords`}
 {=(L1):{lower:{1}}}
 {=(Lopt):{lower:{opt}}}
-{=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|<:tickNo:793101354591191080> **You gave an invalid entry!**\nYou can view the keywords using `?ts keywords`}}
+{=(content):{if({in({L1}):{Lopt}}==true):{r{index({L1}):{opt}}}|<:xmark:623703744537952296> **You gave an invalid entry!**\nYou can view the keywords using `?ts keywords`}}
 
 {=(icon):{if({in(a_):{server(icon)}}==true):{replace(png,gif):{server(icon)}}|{server(icon)}}}
 
