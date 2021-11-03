@@ -79,7 +79,7 @@ For every 5 levels, everyone receives +$100 income!\n\n{r5}}
         "name":"{server}",
         "icon_url":"{icon}",
     },
-    "color":15958529,
+    "color":3092790,
     "type":"rich",
     "description":"{content}",
     "title":""}}
