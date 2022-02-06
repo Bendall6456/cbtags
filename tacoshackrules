@@ -27,7 +27,7 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title03):}
 {=(keyword03):slurs}
-{=(rule03):• No racial slurs, racial comments, or anything related.}
+{=(rule03):• No offensive slurs, comments, or anything related. No hate speech or controversial content.}
 
 {=(title04):}
 {=(keyword04):spam}
@@ -51,7 +51,7 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title09):}
 {=(keyword09):sfw}
-{=(rule09):• Keep it SFW at all times.}
+{=(rule09):• Keep it SFW at all times. Do not insinuate NSFW content.}
 
 {=(title10):}
 {=(keyword10):jokes}
