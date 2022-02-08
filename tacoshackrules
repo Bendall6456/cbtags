@@ -31,7 +31,7 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title04):}
 {=(keyword04):spam}
-{=(rule04):• Do not spam. If you are found spamming, you will be warned, muted or banned depending on the severity of it. XP farming using commands such as `!scratch` or `!f donate` is also prohibited.}
+{=(rule04):• Do not spam/wallspam. If you are found spamming, your XP might be reduced or reset. XP farming using broken messages, emojis or commands such as `!f donate` is also prohibited.}
 
 {=(title05):}
 {=(keyword05):ads}
