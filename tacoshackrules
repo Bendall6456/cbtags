@@ -27,11 +27,11 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title03):}
 {=(keyword03):slurs}
-{=(rule03):• No racial slurs, racial comments, or anything related.}
+{=(rule03):• No offensive slurs, comments, or anything related. No hate speech or controversial content.}
 
 {=(title04):}
 {=(keyword04):spam}
-{=(rule04):• Do not spam. If you are found spamming, you will be warned, muted or banned depending on the severity of it. XP farming using commands such as `!scratch` or `!f donate` is also prohibited.}
+{=(rule04):• Do not spam/wallspam. If you are found spamming, your XP might be reduced or reset. XP farming using broken messages, emojis or commands such as `!f donate` is also prohibited.}
 
 {=(title05):}
 {=(keyword05):ads}
@@ -51,7 +51,7 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title09):}
 {=(keyword09):sfw}
-{=(rule09):• Keep it SFW at all times.}
+{=(rule09):• Keep it SFW at all times. Do not insinuate NSFW content.}
 
 {=(title10):}
 {=(keyword10):jokes}
@@ -95,7 +95,7 @@ Leave corresponding title, keyword, and rule variables blank if the rule # does 
 
 {=(title20):}
 {=(keyword20):franchise}
-{=(rule20):• No unsolicited franchise advertising, which includes, but is not limited to: DMs and harassment in text channels.}
+{=(rule20):• No unsolicited franchise advertising, which includes, but is not limited to: unsolicited franchise invites, DMs and harassment in text channels.}
 
 {=(title21):}
 {=(keyword21):}
